@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>test_prj_210416/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>725</ColumnWidth1><ColumnWidth2>274</ColumnWidth2><ColumnWidth3>90</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>253</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <TerminalIO/><Debug-Log><ColumnWidth0>34</ColumnWidth0><ColumnWidth1>854</ColumnWidth1></Debug-Log><Find-in-Files><ColumnWidth0>582</ColumnWidth0><ColumnWidth1>46</ColumnWidth1><ColumnWidth2>414</ColumnWidth2><ColumnWidth3>184</ColumnWidth3></Find-in-Files><Register><PreferedWindows><Position>4</Position><ScreenPosX>1919</ScreenPosX><ScreenPosY>361</ScreenPosY><Windows><Window><Factory>WATCH_1</Factory></Window></Windows></PreferedWindows></Register><WATCH_1><PreferedWindows><Position>4</Position><ScreenPosX>1919</ScreenPosX><ScreenPosY>361</ScreenPosY><Windows><Window><Factory>Register</Factory></Window></Windows></PreferedWindows></WATCH_1><Disassembly><PreferedWindows><Position>4</Position><ScreenPosX>1059</ScreenPosX><ScreenPosY>639</ScreenPosY><Windows/></PreferedWindows></Disassembly></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-23912-12830</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>test_prj_210416</ExpandedNode><ExpandedNode>test_prj_210416/Application</ExpandedNode><ExpandedNode>test_prj_210416/Drivers</ExpandedNode><ExpandedNode>test_prj_210416/Drivers/HW Drivers</ExpandedNode><ExpandedNode>test_prj_210416/Drivers/HW Drivers/DISCO</ExpandedNode><ExpandedNode>test_prj_210416/Middlewares</ExpandedNode><ExpandedNode>test_prj_210416/Middlewares/FreeRTOS</ExpandedNode><ExpandedNode>test_prj_210416/Middlewares/GUI</ExpandedNode><ExpandedNode>test_prj_210416/Middlewares/GUI/cfg</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1893-12834</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-19527-18012</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-23544-28785</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>141</YPos2><SelStart2>4273</SelStart2><SelEnd2>4273</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Config\uGFX\board_framebuffer.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>658</SelStart2><SelEnd2>658</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\ugfx\drivers\gdisp\framebuffer_dma2d\gdisp_lld_framebuffer.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>187</YPos2><SelStart2>5919</SelStart2><SelEnd2>5919</SelEnd2></Tab><ActiveTab>2</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-033AEE10><key>iaridepm.enu1</key></Toolbar-033AEE10></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>831</Bottom><Right>327</Right><x>-2</x><y>-2</y><xscreen>-2600648</xscreen><yscreen>171</yscreen><sizeHorzCX>-1354504166</sizeHorzCX><sizeHorzCY>171515</sizeHorzCY><sizeVertCX>171354</sizeVertCX><sizeVertCY>835507</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>121</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>123</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>123370</sizeHorzCY><sizeVertCX>-1354504166</sizeVertCX><sizeVertCY>171515</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

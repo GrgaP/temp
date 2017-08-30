@@ -1,0 +1,2741 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.1.10123/W32 for ARM                20/Mar/2017  16:29:26
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Exe\c.out
+#    Map file     =  
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\List\c.map
+#    Command line =  
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\adc_battery.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\backlight.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\bug.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\bug_spectra.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\buzzer_pwm.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\cmsis_os.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\convert.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\crc_16.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\croutine.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\delay.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\dims_dsp_sdram.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\dims_rtc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\disorber.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\dma_usart_f7_hal.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\event_groups.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\flash_memory.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\gdisp_lld_framebuffer.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\gfx_mk.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\ginput_lld_toggle_Pal.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\gmouse_lld_STMPE811.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\gpio_mco.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\graph.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\gui.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\heap_4.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\i2c_drv.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\ili9341_drv.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\keyboard_tmr.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\leds.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\list.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\logotype.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\ltdc_drv.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\main.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\menu.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\menu_calibration.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\passw_text_edit.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\port.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\portasm.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\power.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\queue.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\rgb.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\security.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\sht20_module.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\spectra_bug.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\spectra_data.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\SpectrumMath.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\startup_stm32f746xx.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_adc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_adc_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_can.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_cec.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_cortex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_crc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_crc_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_cryp.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_cryp_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_dac.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_dac_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_dcmi.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_dcmi_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_dma.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_dma2d.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_dma_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_eth.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_flash.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_flash_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_gpio.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_hash.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_hash_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_hcd.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_i2c.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_i2c_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_i2s.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_irda.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_iwdg.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_lptim.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_ltdc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_msp_template.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_nand.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_nor.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_pcd.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_pcd_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_pwr.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_pwr_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_qspi.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_rcc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_rcc_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_rng.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_rtc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_rtc_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_sai.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_sai_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_sd.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_sdram.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_smartcard.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_smartcard_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_spdifrx.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_spi.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_sram.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_tim.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_tim_ex.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_uart.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_usart.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_hal_wwdg.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_ll_fmc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_ll_sdmmc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\stm32f7xx_ll_usb.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\system_stm32f7xx.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\task_manager.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\tasks.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\test.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\timers.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\usbd_cdc.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\usbd_conf.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\usbd_core.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\usbd_ctlreq.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\usbd_ioreq.o
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj\virt_num_keyboard.o
+#        -o D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Exe\c.out
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --map
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\List\c.map
+#        --config
+#        D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\settings\stm32f746xx_flash.icf
+#        --semihosting --entry __iar_program_start --redirect
+#        __iar_sh_stdout=__iar_sh_stdout_swo --no_exceptions "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        7.3\arm\CMSIS\Lib\IAR\iar_cortexM7ls_math.a" --no_vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08010000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2004ffff] {
+          rw, section .noinit, block CSTACK, block HEAP };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A1":                                        0x1c8
+  .intvec             ro code  0x08000000    0x1c8  startup_stm32f746xx.o [1]
+                             - 0x080001c8    0x1c8
+
+"P1":                                      0x34054
+  .text               ro code  0x08010000   0x3070  gfx_mk.o [1]
+  .text               ro code  0x08013070    0xb6c  tasks.o [1]
+  .text               ro code  0x08013bdc    0x976  queue.o [1]
+  .text               ro code  0x08014552      0xa  xsprout.o [3]
+  .text               ro code  0x0801455c    0x234  port.o [1]
+  .text               ro code  0x08014790    0x270  heap_4.o [1]
+  .text               ro code  0x08014a00     0x66  ABImemset.o [5]
+  .rodata             const    0x08014a66      0x2  gfx_mk.o [1]
+  .text               ro code  0x08014a68     0x76  ABImemcpy_unaligned.o [5]
+  .rodata             const    0x08014ade      0x2  gfx_mk.o [1]
+  .text               ro code  0x08014ae0    0x486  gdisp_lld_framebuffer.o [1]
+  .text               ro code  0x08014f66     0x98  list.o [1]
+  .rodata             const    0x08014ffe      0x2  gfx_mk.o [1]
+  .text               ro code  0x08015000    0x3f4  timers.o [1]
+  CODE                ro code  0x080153f4     0xac  portasm.o [1]
+  .text               ro code  0x080154a0    0x3c4  dims_dsp_sdram.o [1]
+  .text               ro code  0x08015864    0x474  ili9341_drv.o [1]
+  .text               ro code  0x08015cd8    0x310  ltdc_drv.o [1]
+  .text               ro code  0x08015fe8    0x27c  stm32f7xx_hal_gpio.o [1]
+  .text               ro code  0x08016264     0xa4  stm32f7xx_hal_sdram.o [1]
+  .text               ro code  0x08016308    0x2d8  main.o [1]
+  .text               ro code  0x080165e0    0x304  stm32f7xx_hal_dma.o [1]
+  .text               ro code  0x080168e4    0x144  stm32f7xx_hal_cortex.o [1]
+  .text               ro code  0x08016a28    0x43a  stm32f7xx_hal_spi.o [1]
+  .rodata             const    0x08016e62      0x2  gfx_mk.o [1]
+  .text               ro code  0x08016e64    0x55c  stm32f7xx_hal_ltdc.o [1]
+  .text               ro code  0x080173c0    0x178  cmsis_os.o [1]
+  .text               ro code  0x08017538    0x2b4  gmouse_lld_STMPE811.o [1]
+  .text               ro code  0x080177ec    0x166  stm32f7xx_ll_fmc.o [1]
+  .rodata             const    0x08017952      0x2  gfx_mk.o [1]
+  .text               ro code  0x08017954    0x848  stm32f7xx_hal_rcc.o [1]
+  .text               ro code  0x0801819c     0x88  stm32f7xx_hal_pwr_ex.o [1]
+  .text               ro code  0x08018224    0x790  stm32f7xx_hal_rcc_ex.o [1]
+  .text               ro code  0x080189b4     0x50  stm32f7xx_hal.o [1]
+  .text               ro code  0x08018a04    0x124  power.o [1]
+  .text               ro code  0x08018b28     0xec  dims_rtc.o [1]
+  .text               ro code  0x08018c14    0x15c  backlight.o [1]
+  .text               ro code  0x08018d70     0x80  leds.o [1]
+  .text               ro code  0x08018df0    0x18c  buzzer_pwm.o [1]
+  .text               ro code  0x08018f7c    0x588  keyboard_tmr.o [1]
+  .text               ro code  0x08019504    0x838  gui.o [1]
+  .text               ro code  0x08019d3c    0x2c4  i2c_drv.o [1]
+  .text               ro code  0x0801a000      0x2  stm32f7xx_hal_msp_template.o [1]
+  .rodata             const    0x0801a002      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801a004    0x1aa  stm32f7xx_hal_rtc.o [1]
+  .rodata             const    0x0801a1ae      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801a1b0     0x34  sprintf.o [3]
+  .text               ro code  0x0801a1e4    0x548  stm32f7xx_hal_tim.o [1]
+  .text               ro code  0x0801a72c    0x20c  stm32f7xx_hal_tim_ex.o [1]
+  .text               ro code  0x0801a938     0x54  disorber.o [1]
+  .text               ro code  0x0801a98c     0xc2  sht20_module.o [1]
+  .rodata             const    0x0801aa4e      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801aa50     0x30  I32ToDbl.o [4]
+  .text               ro code  0x0801aa80    0x1a2  DblMul.o [4]
+  .rodata             const    0x0801ac22      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801ac24    0x256  DblDiv.o [4]
+  .rodata             const    0x0801ae7a      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801ae7c     0x90  DblToFlt.o [4]
+  .text               ro code  0x0801af0c      0x6  sinf.o [4]
+  .rodata             const    0x0801af12      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801af14     0x4e  FltToDbl.o [4]
+  .rodata             const    0x0801af62      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801af64     0x58  DblToI32.o [4]
+  .text               ro code  0x0801afbc    0x100  sqrt.o [4]
+  .text               ro code  0x0801b0bc    0xbac  stm32f7xx_hal_i2c.o [1]
+  .text               ro code  0x0801bc68   0x1152  xprintffull.o [3]
+  .rodata             const    0x0801cdba      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801cdbc    0x16c  xfsin.o [4]
+  .text               ro code  0x0801cf28      0xc  iarEdom.o [5]
+  .text               ro code  0x0801cf34     0x20  xmbtowc.o [3]
+  .text               ro code  0x0801cf54     0x16  strchr.o [5]
+  .rodata             const    0x0801cf6a      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801cf6c     0x36  strlen.o [5]
+  .rodata             const    0x0801cfa2      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801cfa4     0x58  memchr.o [5]
+  .text               ro code  0x0801cffc      0xa  xmbcurmax.o [3]
+  .rodata             const    0x0801d006      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801d008   0x14f0  dlmalloc.o [3]
+  .text               ro code  0x0801e4f8     0x1a  xwctomb.o [3]
+  .rodata             const    0x0801e512      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801e514     0xee  I64DivMod.o [5]
+  .text               ro code  0x0801e602     0x42  xdnorm.o [4]
+  .text               ro code  0x0801e644     0x2e  DblCmpLe.o [4]
+  .rodata             const    0x0801e672      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801e674     0x2e  DblCmpGe.o [4]
+  .rodata             const    0x0801e6a2      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801e6a4    0x114  xdscale.o [4]
+  .text               ro code  0x0801e7b8    0x180  DblSub.o [4]
+  .text               ro code  0x0801e938     0x6c  localeconv.o [3]
+  .text               ro code  0x0801e9a4      0xe  div.o [3]
+  .rodata             const    0x0801e9b2      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801e9b4      0xc  errno.o [3]
+  .text               ro code  0x0801e9c0     0xec  xfquad.o [4]
+  .text               ro code  0x0801eaac     0x14  setlocale.o [3]
+  .text               ro code  0x0801eac0     0x60  xencoding_sb.o [3]
+  .text               ro code  0x0801eb20      0x6  abort.o [3]
+  .rodata             const    0x0801eb26      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801eb28     0x2c  xgetmemchunk.o [3]
+  .text               ro code  0x0801eb54      0x2  I64DivZer.o [5]
+  .rodata             const    0x0801eb56      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801eb58     0xd4  DblAdd.o [4]
+  .text               ro code  0x0801ec2c      0x2  xtls.o [3]
+  .text               ro code  0x0801ec2e     0x4e  xfdint.o [4]
+  .text               ro code  0x0801ec7c     0xe6  fmodf.o [4]
+  .rodata             const    0x0801ed62      0x2  gfx_mk.o [1]
+  .text               ro code  0x0801ed64     0x14  exit.o [6]
+  .rodata             const    0x0801ed78   0x1a30  gfx_mk.o [1]
+  .rodata             const    0x080207a8   0x12c0  gfx_mk.o [1]
+  .rodata             const    0x08021a68   0x1294  gfx_mk.o [1]
+  .rodata             const    0x08022cfc   0x1240  gfx_mk.o [1]
+  .rodata             const    0x08023f3c    0xf8c  gfx_mk.o [1]
+  .rodata             const    0x08024ec8    0xf68  gfx_mk.o [1]
+  .rodata             const    0x08025e30    0xee8  gfx_mk.o [1]
+  .rodata             const    0x08026d18    0xe0c  gfx_mk.o [1]
+  .rodata             const    0x08027b24    0xde0  gfx_mk.o [1]
+  .rodata             const    0x08028904    0xd54  gfx_mk.o [1]
+  .rodata             const    0x08029658    0xcf4  gfx_mk.o [1]
+  .rodata             const    0x0802a34c    0xbe0  gfx_mk.o [1]
+  .rodata             const    0x0802af2c    0xb58  gfx_mk.o [1]
+  .rodata             const    0x0802ba84    0xb28  gfx_mk.o [1]
+  .rodata             const    0x0802c5ac    0xafc  gfx_mk.o [1]
+  .rodata             const    0x0802d0a8    0xa64  gfx_mk.o [1]
+  .rodata             const    0x0802db0c    0x9c8  gfx_mk.o [1]
+  .rodata             const    0x0802e4d4    0x99c  gfx_mk.o [1]
+  .text               ro code  0x0802ee70    0x924  stm32f7xx_ll_usb.o [1]
+  .rodata             const    0x0802f794    0x918  gfx_mk.o [1]
+  .rodata             const    0x080300ac    0x910  gfx_mk.o [1]
+  .rodata             const    0x080309bc    0x90c  gfx_mk.o [1]
+  .rodata             const    0x080312c8    0x8f4  gfx_mk.o [1]
+  .rodata             const    0x08031bbc    0x8e8  gfx_mk.o [1]
+  .rodata             const    0x080324a4    0x894  gfx_mk.o [1]
+  .rodata             const    0x08032d38    0x878  gfx_mk.o [1]
+  .rodata             const    0x080335b0    0x818  gfx_mk.o [1]
+  .text               ro code  0x08033dc8    0x80e  stm32f7xx_hal_pcd.o [1]
+  .rodata             const    0x080345d6      0x2  gfx_mk.o [1]
+  .text               ro code  0x080345d8    0x1a0  usbd_conf.o [1]
+  .text               ro code  0x08034778      0x2  stm32f7xx_hal_pcd_ex.o [1]
+  .rodata             const    0x0803477a      0x2  gfx_mk.o [1]
+  .text               ro code  0x0803477c    0x2b0  usbd_core.o [1]
+  .text               ro code  0x08034a2c    0x582  usbd_ctlreq.o [1]
+  .text               ro code  0x08034fae     0x70  usbd_ioreq.o [1]
+  .rodata             const    0x0803501e      0x2  gfx_mk.o [1]
+  .rodata             const    0x08035020    0x7dc  gfx_mk.o [1]
+  .rodata             const    0x080357fc    0x768  gfx_mk.o [1]
+  .rodata             const    0x08035f64    0x764  gfx_mk.o [1]
+  .rodata             const    0x080366c8    0x754  gfx_mk.o [1]
+  .rodata             const    0x08036e1c    0x73c  gfx_mk.o [1]
+  .rodata             const    0x08037558    0x640  gfx_mk.o [1]
+  .rodata             const    0x08037b98    0x618  gfx_mk.o [1]
+  .rodata             const    0x080381b0    0x610  gfx_mk.o [1]
+  .rodata             const    0x080387c0    0x60c  gfx_mk.o [1]
+  .rodata             const    0x08038dcc    0x604  gfx_mk.o [1]
+  .rodata             const    0x080393d0    0x5d0  gfx_mk.o [1]
+  .rodata             const    0x080399a0    0x55c  gfx_mk.o [1]
+  .rodata             const    0x08039efc    0x534  gfx_mk.o [1]
+  .rodata             const    0x0803a430    0x514  gfx_mk.o [1]
+  .rodata             const    0x0803a944    0x4c8  gfx_mk.o [1]
+  .rodata             const    0x0803ae0c    0x490  gfx_mk.o [1]
+  .rodata             const    0x0803b29c    0x454  gfx_mk.o [1]
+  .text               ro code  0x0803b6f0    0x33a  stm32f7xx_hal_uart.o [1]
+  .rodata             const    0x0803ba2a      0x2  gfx_mk.o [1]
+  .text               ro code  0x0803ba2c     0x6c  dma_usart_f7_hal.o [1]
+  .rodata             const    0x0803ba98    0x338  gfx_mk.o [1]
+  .rodata             const    0x0803bdd0    0x314  gfx_mk.o [1]
+  .rodata             const    0x0803c0e4    0x314  gfx_mk.o [1]
+  .rodata             const    0x0803c3f8    0x2e4  gfx_mk.o [1]
+  .rodata             const    0x0803c6dc    0x278  gfx_mk.o [1]
+  .rodata             const    0x0803c954    0x254  gfx_mk.o [1]
+  .rodata             const    0x0803cba8    0x244  gfx_mk.o [1]
+  .rodata             const    0x0803cdec    0x1e8  gfx_mk.o [1]
+  .rodata             const    0x0803cfd4    0x1dc  gfx_mk.o [1]
+  .rodata             const    0x0803d1b0    0x1d4  gfx_mk.o [1]
+  .rodata             const    0x0803d384    0x1d4  gfx_mk.o [1]
+  .rodata             const    0x0803d558    0x1d4  gfx_mk.o [1]
+  .rodata             const    0x0803d72c    0x1d4  gfx_mk.o [1]
+  .rodata             const    0x0803d900    0x1d4  gfx_mk.o [1]
+  .rodata             const    0x0803dad4    0x1d4  gfx_mk.o [1]
+  .rodata             const    0x0803dca8    0x1d4  gfx_mk.o [1]
+  .rodata             const    0x0803de7c    0x1c0  gfx_mk.o [1]
+  .rodata             const    0x0803e03c    0x1c0  gfx_mk.o [1]
+  .rodata             const    0x0803e1fc    0x1c0  gfx_mk.o [1]
+  .rodata             const    0x0803e3bc    0x1c0  gfx_mk.o [1]
+  .rodata             const    0x0803e57c    0x1c0  gfx_mk.o [1]
+  .rodata             const    0x0803e73c    0x1c0  gfx_mk.o [1]
+  .rodata             const    0x0803e8fc    0x1c0  gfx_mk.o [1]
+  .rodata             const    0x0803eabc    0x1ac  gfx_mk.o [1]
+  .rodata             const    0x0803ec68    0x18c  gfx_mk.o [1]
+  .text               ro code  0x0803edf4    0x18c  stm32f7xx_hal_adc.o [1]
+  .text               ro code  0x0803ef80     0x90  adc_battery.o [1]
+  .text               ro code  0x0803f010    0x16c  stm32f7xx_hal_adc_ex.o [1]
+  .rodata             const    0x0803f17c    0x178  gfx_mk.o [1]
+  .rodata             const    0x0803f2f4    0x154  gfx_mk.o [1]
+  .rodata             const    0x0803f448    0x14c  gfx_mk.o [1]
+  .rodata             const    0x0803f594    0x140  gfx_mk.o [1]
+  .rodata             const    0x0803f6d4    0x138  gfx_mk.o [1]
+  .rodata             const    0x0803f80c    0x128  gfx_mk.o [1]
+  .rodata             const    0x0803f934    0x11c  gfx_mk.o [1]
+  .rodata             const    0x0803fa50    0x11c  gfx_mk.o [1]
+  .rodata             const    0x0803fb6c    0x118  gfx_mk.o [1]
+  .rodata             const    0x0803fc84     0xf8  gfx_mk.o [1]
+  .rodata             const    0x0803fd7c     0xf4  gfx_mk.o [1]
+  .rodata             const    0x0803fe70     0xf0  gfx_mk.o [1]
+  FABR_DEF_SECTION    const    0x0803ff60     0xec  flash_memory.o [1]
+  .rodata             const    0x0804004c     0xe8  gfx_mk.o [1]
+  .rodata             const    0x08040134     0xdc  gfx_mk.o [1]
+  .rodata             const    0x08040210     0xd8  gfx_mk.o [1]
+  .rodata             const    0x080402e8     0xd8  gfx_mk.o [1]
+  .rodata             const    0x080403c0     0xc8  gfx_mk.o [1]
+  .rodata             const    0x08040488     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040548     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040608     0xc0  gfx_mk.o [1]
+  .rodata             const    0x080406c8     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040788     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040848     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040908     0xc0  gfx_mk.o [1]
+  .rodata             const    0x080409c8     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040a88     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040b48     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040c08     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040cc8     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040d88     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040e48     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040f08     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08040fc8     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08041088     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08041148     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08041208     0xc0  gfx_mk.o [1]
+  .rodata             const    0x080412c8     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08041388     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08041448     0xc0  gfx_mk.o [1]
+  .rodata             const    0x08041508     0xb0  gfx_mk.o [1]
+  .rodata             const    0x080415b8     0xa4  gfx_mk.o [1]
+  .rodata             const    0x0804165c     0xa4  gfx_mk.o [1]
+  .rodata             const    0x08041700     0xa4  gfx_mk.o [1]
+  .rodata             const    0x080417a4     0xa4  gfx_mk.o [1]
+  .rodata             const    0x08041848     0xa4  gfx_mk.o [1]
+  .rodata             const    0x080418ec     0xa4  gfx_mk.o [1]
+  .rodata             const    0x08041990     0xa4  gfx_mk.o [1]
+  .rodata             const    0x08041a34     0xa0  gfx_mk.o [1]
+  .rodata             const    0x08041ad4     0x9c  gfx_mk.o [1]
+  .rodata             const    0x08041b70     0x9c  gfx_mk.o [1]
+  .rodata             const    0x08041c0c     0x9c  gfx_mk.o [1]
+  .rodata             const    0x08041ca8     0x9c  gfx_mk.o [1]
+  .rodata             const    0x08041d44     0x9c  gfx_mk.o [1]
+  .rodata             const    0x08041de0     0x9c  gfx_mk.o [1]
+  .rodata             const    0x08041e7c     0x9c  gfx_mk.o [1]
+  .rodata             const    0x08041f18     0x90  gfx_mk.o [1]
+  .rodata             const    0x08041fa8     0x80  gfx_mk.o [1]
+  .rodata             const    0x08042028     0x7c  gfx_mk.o [1]
+  .rodata             const    0x080420a4     0x74  gfx_mk.o [1]
+  .rodata             const    0x08042118     0x70  gfx_mk.o [1]
+  .rodata             const    0x08042188     0x6c  gfx_mk.o [1]
+  .text               ro code  0x080421f4     0x6c  system_stm32f7xx.o [1]
+  .rodata             const    0x08042260     0x68  gfx_mk.o [1]
+  .rodata             const    0x080422c8     0x60  gdisp_lld_framebuffer.o [1]
+  .rodata             const    0x08042328     0x60  gfx_mk.o [1]
+  .rodata             const    0x08042388     0x60  gfx_mk.o [1]
+  .rodata             const    0x080423e8     0x60  gfx_mk.o [1]
+  .rodata             const    0x08042448     0x60  gfx_mk.o [1]
+  .rodata             const    0x080424a8     0x5c  gfx_mk.o [1]
+  .rodata             const    0x08042504     0x54  gfx_mk.o [1]
+  .rodata             const    0x08042558     0x54  gfx_mk.o [1]
+  .rodata             const    0x080425ac     0x48  gfx_mk.o [1]
+  .rodata             const    0x080425f4     0x48  gfx_mk.o [1]
+  .rodata             const    0x0804263c     0x44  gfx_mk.o [1]
+  .rodata             const    0x08042680     0x44  gfx_mk.o [1]
+  .rodata             const    0x080426c4     0x44  gfx_mk.o [1]
+  .rodata             const    0x08042708     0x44  gfx_mk.o [1]
+  .rodata             const    0x0804274c     0x44  gfx_mk.o [1]
+  .rodata             const    0x08042790     0x44  gfx_mk.o [1]
+  .rodata             const    0x080427d4     0x44  gfx_mk.o [1]
+  .rodata             const    0x08042818     0x44  gfx_mk.o [1]
+  .rodata             const    0x0804285c     0x44  gfx_mk.o [1]
+  .rodata             const    0x080428a0     0x44  gfx_mk.o [1]
+  .rodata             const    0x080428e4     0x44  gfx_mk.o [1]
+  .rodata             const    0x08042928     0x40  gfx_mk.o [1]
+  .text               ro code  0x08042968     0x40  zero_init3.o [5]
+  .rodata             const    0x080429a8     0x3c  gfx_mk.o [1]
+  .rodata             const    0x080429e4     0x3c  gfx_mk.o [1]
+  .rodata             const    0x08042a20     0x3c  gfx_mk.o [1]
+  .rodata             const    0x08042a5c     0x3c  gfx_mk.o [1]
+  .rodata             const    0x08042a98     0x3c  gfx_mk.o [1]
+  .rodata             const    0x08042ad4     0x3c  gfx_mk.o [1]
+  .rodata             const    0x08042b10     0x3c  gfx_mk.o [1]
+  .rodata             const    0x08042b4c     0x3c  gmouse_lld_STMPE811.o [1]
+  .rodata             const    0x08042b88     0x38  gfx_mk.o [1]
+  .rodata             const    0x08042bc0     0x38  gfx_mk.o [1]
+  .rodata             const    0x08042bf8     0x38  gfx_mk.o [1]
+  .rodata             const    0x08042c30     0x38  gfx_mk.o [1]
+  .text               ro code  0x08042c68     0x38  packbits_init_single.o [5]
+  .rodata             const    0x08042ca0     0x34  gfx_mk.o [1]
+  .rodata             const    0x08042cd4     0x34  gfx_mk.o [1]
+  .rodata             const    0x08042d08     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042d38     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042d68     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042d98     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042dc8     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042df8     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042e28     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042e58     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042e88     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042eb8     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042ee8     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042f18     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042f48     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042f78     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042fa8     0x30  gfx_mk.o [1]
+  .rodata             const    0x08042fd8     0x30  gfx_mk.o [1]
+  .rodata             const    0x08043008     0x30  gfx_mk.o [1]
+  .rodata             const    0x08043038     0x30  gfx_mk.o [1]
+  .rodata             const    0x08043068     0x30  gfx_mk.o [1]
+  .rodata             const    0x08043098     0x30  gfx_mk.o [1]
+  .rodata             const    0x080430c8     0x30  gfx_mk.o [1]
+  .rodata             const    0x080430f8     0x2c  gfx_mk.o [1]
+  .rodata             const    0x08043124     0x2c  gfx_mk.o [1]
+  .rodata             const    0x08043150     0x2c  gfx_mk.o [1]
+  .rodata             const    0x0804317c     0x2c  gfx_mk.o [1]
+  .rodata             const    0x080431a8     0x28  gfx_mk.o [1]
+  .rodata             const    0x080431d0     0x28  gfx_mk.o [1]
+  .text               ro code  0x080431f8     0x28  data_init.o [5]
+  .rodata             const    0x08043220     0x24  gfx_mk.o [1]
+  .rodata             const    0x08043244     0x24  gfx_mk.o [1]
+  .rodata             const    0x08043268     0x24  gfx_mk.o [1]
+  .rodata             const    0x0804328c     0x24  gfx_mk.o [1]
+  .rodata             const    0x080432b0     0x24  gfx_mk.o [1]
+  .rodata             const    0x080432d4     0x24  gfx_mk.o [1]
+  .rodata             const    0x080432f8     0x24  gfx_mk.o [1]
+  .rodata             const    0x0804331c     0x24  gfx_mk.o [1]
+  .rodata             const    0x08043340     0x24  gfx_mk.o [1]
+  .rodata             const    0x08043364     0x24  gfx_mk.o [1]
+  .rodata             const    0x08043388     0x24  gfx_mk.o [1]
+  .rodata             const    0x080433ac     0x24  gfx_mk.o [1]
+  .rodata             const    0x080433d0     0x24  gfx_mk.o [1]
+  .rodata             const    0x080433f4     0x24  gfx_mk.o [1]
+  .rodata             const    0x08043418     0x24  gfx_mk.o [1]
+  .rodata             const    0x0804343c     0x24  gfx_mk.o [1]
+  .rodata             const    0x08043460     0x24  gfx_mk.o [1]
+  .rodata             const    0x08043484     0x24  gfx_mk.o [1]
+  .rodata             const    0x080434a8     0x24  gfx_mk.o [1]
+  .text               ro code  0x080434cc     0x22  fpinit_M.o [4]
+  .iar.init_table     const    0x080434f0     0x20  - Linker created -
+  .rodata             const    0x08043510      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043514     0x20  gfx_mk.o [1]
+  .rodata             const    0x08043534     0x20  gfx_mk.o [1]
+  FABR_DEF_SECTION    const    0x08043554     0x20  flash_memory.o [1]
+  .rodata             const    0x08043574     0x1c  gfx_mk.o [1]
+  .rodata             const    0x08043590     0x1c  gfx_mk.o [1]
+  .text               ro code  0x080435ac     0x1c  delay.o [1]
+  .text               ro code  0x080435c8     0x1a  cmain.o [5]
+  .text               ro code  0x080435e2      0x4  low_level_init.o [3]
+  .text               ro code  0x080435e6      0x4  exit.o [3]
+  .rodata             const    0x080435ea      0x2  gfx_mk.o [1]
+  .text               ro code  0x080435ec      0xa  cexit.o [5]
+  .rodata             const    0x080435f6      0x2  gfx_mk.o [1]
+  .rodata             const    0x080435f8     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043610     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043628     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043640     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043658     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043670     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043688     0x18  gfx_mk.o [1]
+  .rodata             const    0x080436a0     0x18  gfx_mk.o [1]
+  .rodata             const    0x080436b8     0x18  gfx_mk.o [1]
+  .rodata             const    0x080436d0     0x18  gfx_mk.o [1]
+  .rodata             const    0x080436e8     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043700     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043718     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043730     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043748     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043760     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043778     0x18  gfx_mk.o [1]
+  .rodata             const    0x08043790     0x18  gfx_mk.o [1]
+  .rodata             const    0x080437a8     0x18  gfx_mk.o [1]
+  .rodata             const    0x080437c0     0x18  gfx_mk.o [1]
+  .rodata             const    0x080437d8     0x14  gfx_mk.o [1]
+  .rodata             const    0x080437ec     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043800     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043814     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043828     0x14  gfx_mk.o [1]
+  .rodata             const    0x0804383c     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043850     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043864     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043878     0x14  gfx_mk.o [1]
+  .rodata             const    0x0804388c     0x14  gfx_mk.o [1]
+  .rodata             const    0x080438a0     0x14  gfx_mk.o [1]
+  .rodata             const    0x080438b4     0x14  gfx_mk.o [1]
+  .rodata             const    0x080438c8     0x14  gfx_mk.o [1]
+  .rodata             const    0x080438dc     0x14  gfx_mk.o [1]
+  .rodata             const    0x080438f0     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043904     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043918     0x14  gfx_mk.o [1]
+  .rodata             const    0x0804392c     0x14  gfx_mk.o [1]
+  .rodata             const    0x08043940     0x14  gui.o [1]
+  .rodata             const    0x08043954     0x14  main.o [1]
+  .rodata             const    0x08043968     0x10  dims_rtc.o [1]
+  .rodata             const    0x08043978     0x10  dims_rtc.o [1]
+  .rodata             const    0x08043988     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043998     0x10  gfx_mk.o [1]
+  .rodata             const    0x080439a8     0x10  gfx_mk.o [1]
+  .rodata             const    0x080439b8     0x10  gfx_mk.o [1]
+  .rodata             const    0x080439c8     0x10  gfx_mk.o [1]
+  .rodata             const    0x080439d8     0x10  gfx_mk.o [1]
+  .rodata             const    0x080439e8     0x10  gfx_mk.o [1]
+  .rodata             const    0x080439f8     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a08     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a18     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a28     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a38     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a48     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a58     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a68     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a78     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a88     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043a98     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043aa8     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043ab8     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043ac8     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043ad8     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043ae8     0x10  gfx_mk.o [1]
+  .rodata             const    0x08043af8     0x10  gui.o [1]
+  .rodata             const    0x08043b08     0x10  gui.o [1]
+  .rodata             const    0x08043b18     0x10  stm32f7xx_hal_rcc.o [1]
+  .text               ro code  0x08043b28     0x10  startup_stm32f746xx.o [1]
+  FABR_DEF_SECTION    const    0x08043b38     0x10  flash_memory.o [1]
+  .rodata             const    0x08043b48      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043b54      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043b60      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043b6c      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043b78      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043b84      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043b90      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043b9c      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043ba8      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043bb4      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043bc0      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043bcc      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043bd8      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043be4      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043bf0      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043bfc      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c08      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c14      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c20      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c2c      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c38      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c44      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c50      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c5c      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c68      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c74      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c80      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c8c      0xc  gfx_mk.o [1]
+  .rodata             const    0x08043c98      0xc  gfx_mk.o [1]
+  .text               ro code  0x08043ca4      0xc  cstartup_M.o [5]
+  .rodata             const    0x08043cb0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043cb8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043cc0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043cc8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043cd0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043cd8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043ce0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043ce8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043cf0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043cf8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d00      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d08      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d10      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d18      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d20      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d28      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d30      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d38      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d40      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d48      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d50      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d58      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d60      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d68      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d70      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d78      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d80      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d88      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d90      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043d98      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043da0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043da8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043db0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043db8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043dc0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043dc8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043dd0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043dd8      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043de0      0x8  gfx_mk.o [1]
+  .rodata             const    0x08043de8      0x8  gui.o [1]
+  .rodata             const    0x08043df0      0x8  stm32f7xx_hal_dma.o [1]
+  .rodata             const    0x08043df8      0x8  tasks.o [1]
+  .rodata             const    0x08043e00      0x8  timers.o [1]
+  .rodata             const    0x08043e08      0x8  timers.o [1]
+  FABR_DEF_SECTION    const    0x08043e10      0x8  flash_memory.o [1]
+  .rodata             const    0x08043e18      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e1c      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e20      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e24      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e28      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e2c      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e30      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e34      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e38      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e3c      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e40      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e44      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e48      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e4c      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e50      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e54      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e58      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e5c      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e60      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e64      0x4  gfx_mk.o [1]
+  .rodata             const    0x08043e68      0x4  heap_4.o [1]
+  .rodata             const    0x08043e6c      0x4  ltdc_drv.o [1]
+  .rodata             const    0x08043e70      0x4  port.o [1]
+  .text               ro code  0x08043e74      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e78      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e7c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e80      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e84      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e88      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e8c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e90      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e94      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e98      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043e9c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ea0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ea4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ea8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043eac      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043eb0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043eb4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043eb8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ebc      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ec0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ec4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ec8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ecc      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ed0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ed4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ed8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043edc      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ee0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ee4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ee8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043eec      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ef0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ef4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043ef8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043efc      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f00      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f04      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f08      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f0c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f10      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f14      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f18      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f1c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f20      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f24      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f28      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f2c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f30      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f34      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f38      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f3c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f40      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f44      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f48      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f4c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f50      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f54      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f58      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f5c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f60      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f64      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f68      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f6c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f70      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f74      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f78      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f7c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f80      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f84      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f88      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f8c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f90      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f94      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f98      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043f9c      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fa0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fa4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fa8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fac      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fb0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fb4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fb8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fbc      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fc0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fc4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fc8      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fcc      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fd0      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fd4      0x4  startup_stm32f746xx.o [1]
+  .text               ro code  0x08043fd8      0x4  startup_stm32f746xx.o [1]
+  FABR_DEF_SECTION    const    0x08043fdc      0x4  flash_memory.o [1]
+  .rodata             const    0x08043fe0      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043fe2      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043fe4      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043fe6      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043fe8      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043fea      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043fec      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043fee      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043ff0      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043ff2      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043ff4      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043ff6      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043ff8      0x2  gfx_mk.o [1]
+  .rodata             const    0x08043ffa      0x2  sht20_module.o [1]
+  .text               ro code  0x08043ffc      0x2  bug.o [1]
+  FABR_DEF_SECTION    const    0x08043ffe      0x2  flash_memory.o [1]
+  FABR_DEF_SECTION    const    0x08044000      0x2  flash_memory.o [1]
+  FABR_DEF_SECTION    const    0x08044002      0x2  flash_memory.o [1]
+  FABR_DEF_SECTION    const    0x08044004      0x2  flash_memory.o [1]
+  FABR_DEF_SECTION    const    0x08044006      0x1  flash_memory.o [1]
+  FABR_DEF_SECTION    const    0x08044007      0x1  flash_memory.o [1]
+  .rodata             const    0x08044008      0x0  zero_init3.o [5]
+  .rodata             const    0x08044008      0x0  packbits_init_single.o [5]
+  Initializer bytes   const    0x08044008     0x4c  <for P2-1>
+                             - 0x08044054  0x34054
+
+"P2", part 1 of 3:                           0x161
+  P2-1                         0x20000000    0x161  <Init block>
+    .data             inited   0x20000000      0x4  gfx_mk.o [1]
+    .data             inited   0x20000004      0x4  gui.o [1]
+    .data             inited   0x20000008     0x34  main.o [1]
+    .data             inited   0x2000003c      0x4  port.o [1]
+    .data             inited   0x20000040      0x4  power.o [1]
+    .data             inited   0x20000044      0x4  power.o [1]
+    .data             inited   0x20000048      0x4  system_stm32f7xx.o [1]
+    .data             inited   0x2000004c      0x4  tasks.o [1]
+    __DLIB_PERTHREAD  inited   0x20000050     0x88  localeconv.o [3]
+    __DLIB_PERTHREAD  inited   0x200000d8      0x4  errno.o [3]
+    __DLIB_PERTHREAD  inited   0x200000dc     0x74  setlocale.o [3]
+    .data             inited   0x20000150      0x2  gui.o [1]
+    .data             inited   0x20000152      0x2  gui.o [1]
+    .data             inited   0x20000154      0x2  gui.o [1]
+    .data             inited   0x20000156      0x2  gui.o [1]
+    .data             inited   0x20000158      0x2  gui.o [1]
+    .data             inited   0x2000015a      0x2  gui.o [1]
+    .data             inited   0x2000015c      0x1  adc_battery.o [1]
+    .data             inited   0x2000015d      0x1  adc_battery.o [1]
+    .data             inited   0x2000015e      0x1  adc_battery.o [1]
+    .data             inited   0x2000015f      0x1  buzzer_pwm.o [1]
+    .data             inited   0x20000160      0x1  graph.o [1]
+                             - 0x20000161    0x161
+
+"P2", part 2 of 3:                          0x4000
+  CSTACK                       0x20000168   0x2000  <Block>
+    CSTACK            uninit   0x20000168   0x2000  <Block tail>
+  HEAP                         0x20002168   0x2000  <Block>
+    HEAP              uninit   0x20002168   0x2000  <Block tail>
+                             - 0x20004168   0x4000
+
+"P2", part 3 of 3:                          0xcf3c
+  .bss                zero     0x20004168   0x5000  gui.o [1]
+  .bss                zero     0x20009168   0x3c00  heap_4.o [1]
+  .bss                zero     0x2000cd68   0x1800  gui.o [1]
+  .bss                zero     0x2000e568    0x800  gui.o [1]
+  .bss                zero     0x2000ed68    0x800  gui.o [1]
+  .bss                zero     0x2000f568    0x800  gui.o [1]
+  .bss                zero     0x2000fd68    0x400  gui.o [1]
+  .bss                zero     0x20010168    0x3c0  usbd_conf.o [1]
+  .bss                zero     0x20010528    0x200  gfx_mk.o [1]
+  .bss                zero     0x20010728    0x1d8  dlmalloc.o [3]
+  .bss                zero     0x20010900     0xa8  ltdc_drv.o [1]
+  .bss                zero     0x200109a8     0x8c  tasks.o [1]
+  .bss                zero     0x20010a34     0x70  dma_usart_f7_hal.o [1]
+  .bss                zero     0x20010aa4     0x64  ili9341_drv.o [1]
+  .bss                zero     0x20010b08     0x58  dims_dsp_sdram.o [1]
+  .bss                zero     0x20010b60     0x58  dma_usart_f7_hal.o [1]
+  .bss                zero     0x20010bb8     0x58  dma_usart_f7_hal.o [1]
+  .bss                zero     0x20010c10     0x58  dma_usart_f7_hal.o [1]
+  .bss                zero     0x20010c68     0x48  adc_battery.o [1]
+  .bss                zero     0x20010cb0     0x40  queue.o [1]
+  .bss                zero     0x20010cf0     0x3c  backlight.o [1]
+  .bss                zero     0x20010d2c     0x3c  backlight.o [1]
+  .bss                zero     0x20010d68     0x3c  buzzer_pwm.o [1]
+  .bss                zero     0x20010da4     0x3c  i2c_drv.o [1]
+  .bss                zero     0x20010de0     0x38  gfx_mk.o [1]
+  .bss                zero     0x20010e18     0x34  dims_dsp_sdram.o [1]
+  .bss                zero     0x20010e4c     0x20  dims_rtc.o [1]
+  .bss                zero     0x20010e6c     0x1c  dims_dsp_sdram.o [1]
+  .bss                zero     0x20010e88     0x1c  gfx_mk.o [1]
+  .bss                zero     0x20010ea4     0x1c  gui.o [1]
+  .bss                zero     0x20010ec0     0x18  dlmalloc.o [3]
+  .bss                zero     0x20010ed8     0x14  tasks.o [1]
+  .bss                zero     0x20010eec     0x14  tasks.o [1]
+  .bss                zero     0x20010f00     0x14  tasks.o [1]
+  .bss                zero     0x20010f14     0x14  tasks.o [1]
+  .bss                zero     0x20010f28     0x14  tasks.o [1]
+  .bss                zero     0x20010f3c     0x14  timers.o [1]
+  .bss                zero     0x20010f50     0x14  timers.o [1]
+  .bss                zero     0x20010f64     0x10  dims_dsp_sdram.o [1]
+  .bss                zero     0x20010f74      0xc  gfx_mk.o [1]
+  .bss                zero     0x20010f80      0xc  gfx_mk.o [1]
+  .bss                zero     0x20010f8c      0x8  gfx_mk.o [1]
+  .bss                zero     0x20010f94      0x8  gui.o [1]
+  .bss                zero     0x20010f9c      0x8  gui.o [1]
+  .bss                zero     0x20010fa4      0x8  heap_4.o [1]
+  .bss                zero     0x20010fac      0x4  adc_battery.o [1]
+  .bss                zero     0x20010fb0      0x4  adc_battery.o [1]
+  .bss                zero     0x20010fb4      0x4  adc_battery.o [1]
+  .bss                zero     0x20010fb8      0x4  adc_battery.o [1]
+  .bss                zero     0x20010fbc      0x4  adc_battery.o [1]
+  .bss                zero     0x20010fc0      0x4  backlight.o [1]
+  .bss                zero     0x20010fc4      0x4  delay.o [1]
+  .bss                zero     0x20010fc8      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fcc      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fd0      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fd4      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fd8      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fdc      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fe0      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fe4      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fe8      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010fec      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010ff0      0x4  gfx_mk.o [1]
+  .bss                zero     0x20010ff4      0x4  gui.o [1]
+  .bss                zero     0x20010ff8      0x4  gui.o [1]
+  .bss                zero     0x20010ffc      0x4  gui.o [1]
+  .bss                zero     0x20011000      0x4  gui.o [1]
+  .bss                zero     0x20011004      0x4  heap_4.o [1]
+  .bss                zero     0x20011008      0x4  heap_4.o [1]
+  .bss                zero     0x2001100c      0x4  heap_4.o [1]
+  .bss                zero     0x20011010      0x4  heap_4.o [1]
+  .bss                zero     0x20011014      0x4  keyboard_tmr.o [1]
+  .bss                zero     0x20011018      0x4  keyboard_tmr.o [1]
+  .bss                zero     0x2001101c      0x4  ltdc_drv.o [1]
+  .bss                zero     0x20011020      0x4  port.o [1]
+  .bss                zero     0x20011024      0x4  stm32f7xx_hal.o [1]
+  .bss                zero     0x20011028      0x4  task_manager.o [1]
+  .bss                zero     0x2001102c      0x4  tasks.o [1]
+  .bss                zero     0x20011030      0x4  tasks.o [1]
+  .bss                zero     0x20011034      0x4  tasks.o [1]
+  .bss                zero     0x20011038      0x4  tasks.o [1]
+  .bss                zero     0x2001103c      0x4  tasks.o [1]
+  .bss                zero     0x20011040      0x4  tasks.o [1]
+  .bss                zero     0x20011044      0x4  tasks.o [1]
+  .bss                zero     0x20011048      0x4  tasks.o [1]
+  .bss                zero     0x2001104c      0x4  tasks.o [1]
+  .bss                zero     0x20011050      0x4  tasks.o [1]
+  .bss                zero     0x20011054      0x4  tasks.o [1]
+  .bss                zero     0x20011058      0x4  tasks.o [1]
+  .bss                zero     0x2001105c      0x4  tasks.o [1]
+  .bss                zero     0x20011060      0x4  timers.o [1]
+  .bss                zero     0x20011064      0x4  timers.o [1]
+  .bss                zero     0x20011068      0x4  timers.o [1]
+  .bss                zero     0x2001106c      0x4  timers.o [1]
+  .bss                zero     0x20011070      0x4  xgetmemchunk.o [3]
+  .bss                zero     0x20011074      0x2  gfx_mk.o [1]
+  .bss                zero     0x20011076      0x2  gmouse_lld_STMPE811.o [1]
+  .bss                zero     0x20011078      0x2  graph.o [1]
+  .bss                zero     0x2001107a      0x2  graph.o [1]
+  .bss                zero     0x2001107c      0x2  gui.o [1]
+  .bss                zero     0x2001107e      0x2  gui.o [1]
+  .bss                zero     0x20011080      0x2  gui.o [1]
+  .bss                zero     0x20011082      0x2  gui.o [1]
+  .bss                zero     0x20011084      0x2  keyboard_tmr.o [1]
+  .bss                zero     0x20011086      0x1  adc_battery.o [1]
+  .bss                zero     0x20011087      0x1  backlight.o [1]
+  .bss                zero     0x20011088      0x1  backlight.o [1]
+  .bss                zero     0x20011089      0x1  backlight.o [1]
+  .bss                zero     0x2001108a      0x1  buzzer_pwm.o [1]
+  .bss                zero     0x2001108b      0x1  buzzer_pwm.o [1]
+  .bss                zero     0x2001108c      0x1  buzzer_pwm.o [1]
+  .bss                zero     0x2001108d      0x1  buzzer_pwm.o [1]
+  .bss                zero     0x2001108e      0x1  disorber.o [1]
+  .bss                zero     0x2001108f      0x1  disorber.o [1]
+  .bss                zero     0x20011090      0x1  disorber.o [1]
+  .bss                zero     0x20011091      0x1  dma_usart_f7_hal.o [1]
+  .bss                zero     0x20011092      0x1  dma_usart_f7_hal.o [1]
+  .bss                zero     0x20011093      0x1  gfx_mk.o [1]
+  .bss                zero     0x20011094      0x1  gfx_mk.o [1]
+  .bss                zero     0x20011095      0x1  gfx_mk.o [1]
+  .bss                zero     0x20011096      0x1  gmouse_lld_STMPE811.o [1]
+  .bss                zero     0x20011097      0x1  i2c_drv.o [1]
+  .bss                zero     0x20011098      0x1  i2c_drv.o [1]
+  .bss                zero     0x20011099      0x1  keyboard_tmr.o [1]
+  .bss                zero     0x2001109a      0x1  keyboard_tmr.o [1]
+  .bss                zero     0x2001109b      0x1  keyboard_tmr.o [1]
+  .bss                zero     0x2001109c      0x1  keyboard_tmr.o [1]
+  .bss                zero     0x2001109d      0x1  ltdc_drv.o [1]
+  .bss                zero     0x2001109e      0x1  port.o [1]
+  .bss                zero     0x2001109f      0x1  power.o [1]
+  .bss                zero     0x200110a0      0x1  power.o [1]
+  .bss                zero     0x200110a1      0x1  power.o [1]
+  .bss                zero     0x200110a2      0x1  usbd_ctlreq.o [1]
+                             - 0x200110a3   0xcf3b
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xcf3b:
+          0x20004168  0xcf3b
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x4c (21% of destination):
+          0x08044008    0x4c
+    1 destination range, total size 0x161:
+          0x20000000   0x161
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                        ro code  ro data  rw data
+    ------                        -------  -------  -------
+D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj: [1]
+    adc_battery.o                     144        1       96
+    backlight.o                       348               127
+    bug.o                               2
+    buzzer_pwm.o                      396                65
+    cmsis_os.o                        376
+    delay.o                            28                 4
+    dims_dsp_sdram.o                  964               184
+    dims_rtc.o                        236       32       32
+    disorber.o                         84                 3
+    dma_usart_f7_hal.o                108               378
+    flash_memory.o                             306
+    gdisp_lld_framebuffer.o         1 158       96
+    gfx_mk.o                       12 400  141 950      681
+    gmouse_lld_STMPE811.o             692       60        3
+    graph.o                                      1        5
+    gui.o                           2 104       63   33 876
+    heap_4.o                          624        4   15 384
+    i2c_drv.o                         708                62
+    ili9341_drv.o                   1 140               100
+    keyboard_tmr.o                  1 416                14
+    leds.o                            128
+    list.o                            152
+    ltdc_drv.o                        784        4      173
+    main.o                            728       31       52
+    port.o                            564        5        9
+    portasm.o                         172
+    power.o                           292        2       11
+    queue.o                         2 422                64
+    sht20_module.o                    194        2
+    startup_stm32f746xx.o             832
+    stm32f7xx_hal.o                    80                 4
+    stm32f7xx_hal_adc.o               396
+    stm32f7xx_hal_adc_ex.o            364
+    stm32f7xx_hal_cortex.o            324
+    stm32f7xx_hal_dma.o               772        8
+    stm32f7xx_hal_gpio.o              636
+    stm32f7xx_hal_i2c.o             2 988
+    stm32f7xx_hal_ltdc.o            1 372
+    stm32f7xx_hal_msp_template.o        2
+    stm32f7xx_hal_pcd.o             2 062
+    stm32f7xx_hal_pcd_ex.o              2
+    stm32f7xx_hal_pwr_ex.o            136
+    stm32f7xx_hal_rcc.o             2 120       16
+    stm32f7xx_hal_rcc_ex.o          1 936
+    stm32f7xx_hal_rtc.o               426
+    stm32f7xx_hal_sdram.o             164
+    stm32f7xx_hal_spi.o             1 082
+    stm32f7xx_hal_tim.o             1 352
+    stm32f7xx_hal_tim_ex.o            524
+    stm32f7xx_hal_uart.o              826
+    stm32f7xx_ll_fmc.o                358
+    stm32f7xx_ll_usb.o              2 340
+    system_stm32f7xx.o                108        1        4
+    task_manager.o                                        4
+    tasks.o                         2 924        9      296
+    timers.o                        1 012       16       56
+    usbd_conf.o                       416               960
+    usbd_core.o                       688
+    usbd_ctlreq.o                   1 410                 1
+    usbd_ioreq.o                      112
+    -------------------------------------------------------
+    Total:                         56 128  142 607   52 648
+
+command line: [2]
+    -------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                             6
+    div.o                              14
+    dlmalloc.o                      5 360               496
+    errno.o                            12        1        4
+    exit.o                              4
+    localeconv.o                      108       29      136
+    low_level_init.o                    4
+    setlocale.o                        20       25      116
+    sprintf.o                          52
+    xencoding_sb.o                     96
+    xgetmemchunk.o                     44                 4
+    xmbcurmax.o                        10
+    xmbtowc.o                          32
+    xprintffull.o                   4 434
+    xsprout.o                          10
+    xtls.o                              2
+    xwctomb.o                          26
+    -------------------------------------------------------
+    Total:                         10 234       55      756
+
+m7M_tls.a: [4]
+    DblAdd.o                          212
+    DblCmpGe.o                         46
+    DblCmpLe.o                         46
+    DblDiv.o                          598
+    DblMul.o                          418
+    DblSub.o                          384
+    DblToFlt.o                        144
+    DblToI32.o                         88
+    FltToDbl.o                         78
+    I32ToDbl.o                         48
+    fmodf.o                           230
+    fpinit_M.o                         34
+    sinf.o                              6
+    sqrt.o                            256
+    xdnorm.o                           66
+    xdscale.o                         276
+    xfdint.o                           78
+    xfquad.o                          236
+    xfsin.o                           364
+    -------------------------------------------------------
+    Total:                          3 608
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o             118
+    ABImemset.o                       102
+    I64DivMod.o                       238
+    I64DivZer.o                         2
+    cexit.o                            10
+    cmain.o                            26
+    cstartup_M.o                       12
+    data_init.o                        40
+    iarEdom.o                          12
+    memchr.o                           88
+    packbits_init_single.o             56
+    strchr.o                           22
+    strlen.o                           54
+    zero_init3.o                       64
+    -------------------------------------------------------
+    Total:                            844
+
+shb_l.a: [6]
+    exit.o                             20
+    -------------------------------------------------------
+    Total:                             20
+
+    Gaps                                         4
+    Linker created                              32   16 384
+-----------------------------------------------------------
+    Grand Total:                   70 834  142 698   69 788
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x080434f0           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08043510           --   Gb  - Linker created -
+?main                   0x080435c9          Code  Gb  cmain.o [5]
+ADC_Bat                 0x20010fb8     0x4  Data  Gb  adc_battery.o [1]
+ADC_Cnt                 0x20011086     0x1  Data  Gb  adc_battery.o [1]
+ADC_IRQHandler          0x0803ef81     0xa  Code  Gb  adc_battery.o [1]
+ADC_Ref                 0x20010fbc     0x4  Data  Gb  adc_battery.o [1]
+APBAHBPrescTable        0x08043b18    0x10  Data  Gb  stm32f7xx_hal_rcc.o [1]
+AllKeyboards            0x20010ff0     0x4  Data  Lc  gfx_mk.o [1]
+Assignments             0x20010528   0x200  Data  Lc  gfx_mk.o [1]
+BL_Flag                 0x20011089     0x1  Data  Gb  backlight.o [1]
+BL_Keyb                 0x20011088     0x1  Data  Gb  backlight.o [1]
+BL_Lcd                  0x20011087     0x1  Data  Gb  backlight.o [1]
+BSP_SDRAM_Init          0x080154a1    0xb4  Code  Gb  dims_dsp_sdram.o [1]
+BSP_SDRAM_Initialization_sequence
+                        0x08015555    0xc4  Code  Gb  dims_dsp_sdram.o [1]
+BUZ_Flag                0x2001108a     0x1  Data  Gb  buzzer_pwm.o [1]
+Backlight_Alarm         0x08018ced    0x3c  Code  Gb  backlight.o [1]
+Backlight_Init          0x08018c57    0x96  Code  Gb  backlight.o [1]
+BuzzEnable              0x2000015f     0x1  Data  Gb  buzzer_pwm.o [1]
+BuzzPeriod              0x2001108c     0x1  Data  Gb  buzzer_pwm.o [1]
+BuzzRepeat              0x2001108d     0x1  Data  Gb  buzzer_pwm.o [1]
+BuzzTimer               0x2001108b     0x1  Data  Gb  buzzer_pwm.o [1]
+Buzzer_Keyb             0x08018ec7     0xe  Code  Gb  buzzer_pwm.o [1]
+Buzzer_Update           0x08018ed5    0x74  Code  Gb  buzzer_pwm.o [1]
+Buzzer_init             0x08018df1    0xd6  Code  Gb  buzzer_pwm.o [1]
+CSTACK$$Base            0x20000168           --   Gb  - Linker created -
+CSTACK$$Limit           0x20002168           --   Gb  - Linker created -
+Command                 0x20010f64    0x10  Data  Lc  dims_dsp_sdram.o [1]
+DIMS_RTC_CalendarBkupInit
+                        0x08018b29    0x3e  Code  Gb  dims_rtc.o [1]
+DIMS_RTC_module_getStrD
+                        0x08018bd3    0x2a  Code  Gb  dims_rtc.o [1]
+DIMS_RTC_module_getStrT
+                        0x08018ba9    0x2a  Code  Gb  dims_rtc.o [1]
+DISOR_Flag              0x2001108e     0x1  Data  Gb  disorber.o [1]
+DMA2D_FillBuffer        0x08014ceb    0x38  Code  Lc  gdisp_lld_framebuffer.o [1]
+DMA2_Stream1_IRQHandler
+                        0x0803ba4b     0xa  Code  Gb  dma_usart_f7_hal.o [1]
+DMA2_Stream5_IRQHandler
+                        0x0803ba37     0xa  Code  Gb  dma_usart_f7_hal.o [1]
+DMA2_Stream7_IRQHandler
+                        0x0803ba41     0xa  Code  Gb  dma_usart_f7_hal.o [1]
+DMA_CalcBaseAndBitshift
+                        0x080168a7    0x2e  Code  Lc  stm32f7xx_hal_dma.o [1]
+Disorber_Update         0x0801a939    0x44  Code  Gb  disorber.o [1]
+Disorber_frac           0x2001108f     0x1  Data  Gb  disorber.o [1]
+Disorber_sec            0x20011090     0x1  Data  Gb  disorber.o [1]
+DisplayMode             0x20000160     0x1  Data  Gb  graph.o [1]
+EXTI9_5_IRQHandler      0x08017575     0xa  Code  Gb  gmouse_lld_STMPE811.o [1]
+FMC_SDRAM_Init          0x080177ed    0x74  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_ProgramRefreshRate
+                        0x08017947     0xc  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_SendCommand   0x080178f7    0x50  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FMC_SDRAM_Timing_Init   0x08017861    0x96  Code  Gb  stm32f7xx_ll_fmc.o [1]
+FreeRTOS_IdleTickCode   0x08016505    0x54  Code  Gb  main.o [1]
+GDISP                   0x20010fd0     0x4  Data  Gb  gfx_mk.o [1]
+GDISPVMT_OnlyOne        0x080422c8    0x60  Data  Gb  gdisp_lld_framebuffer.o [1]
+GMOUSEVMT_OnlyOne       0x08042b4c    0x3c  Data  Gb  gmouse_lld_STMPE811.o [1]
+GNullWindowManager      0x08043e64     0x4  Data  Gb  gfx_mk.o [1]
+GNullWindowManagerVMT   0x080434a8    0x24  Data  Lc  gfx_mk.o [1]
+GTimerThreadHandler     0x08011c19   0x13a  Code  Lc  gfx_mk.o [1]
+GUI_mainTaskHandle      0x20010ff4     0x4  Data  Gb  gui.o [1]
+GUI_main_Task           0x08019c65    0x2c  Code  Gb  gui.o [1]
+GUI_start               0x08019c91    0x1e  Code  Gb  gui.o [1]
+GetMouseReading         0x08012bb7   0x3b0  Code  Lc  gfx_mk.o [1]
+Grad_Lvl_Curr           0x20011078     0x2  Data  Gb  graph.o [1]
+Grad_Lvl_Trgt           0x2001107a     0x2  Data  Gb  graph.o [1]
+HAL_ADCEx_InjectedConvCpltCallback
+                        0x0803ef8b    0x6c  Code  Gb  adc_battery.o [1]
+HAL_ADCEx_InjectedGetValue
+                        0x0803f123    0x44  Code  Gb  stm32f7xx_hal_adc_ex.o [1]
+HAL_ADCEx_InjectedStart_IT
+                        0x0803f011   0x112  Code  Gb  stm32f7xx_hal_adc_ex.o [1]
+HAL_ADC_ConvCpltCallback
+                        0x0803ef7b     0x2  Code  Wk  stm32f7xx_hal_adc.o [1]
+HAL_ADC_ErrorCallback   0x0803ef7f     0x2  Code  Wk  stm32f7xx_hal_adc.o [1]
+HAL_ADC_IRQHandler      0x0803edf5   0x186  Code  Gb  stm32f7xx_hal_adc.o [1]
+HAL_ADC_LevelOutOfWindowCallback
+                        0x0803ef7d     0x2  Code  Wk  stm32f7xx_hal_adc.o [1]
+HAL_DMA_DeInit          0x08016663    0x6a  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_IRQHandler      0x080166cd   0x1da  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_DMA_Init            0x080165e1    0x82  Code  Gb  stm32f7xx_hal_dma.o [1]
+HAL_Delay               0x080165a3    0x1c  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_Callback  0x0801757f    0x1a  Code  Gb  gmouse_lld_STMPE811.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x08016203    0x1a  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x08015fe9   0x1f4  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x080161dd    0x12  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x080161ef    0x14  Code  Gb  stm32f7xx_hal_gpio.o [1]
+HAL_GetTick             0x080189fb     0x6  Code  Wk  stm32f7xx_hal.o [1]
+HAL_I2C_DeInit          0x0801b179    0x38  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_ER_IRQHandler   0x0801b4a7    0x74  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_EV_IRQHandler   0x0801b379   0x12e  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_ErrorCallback   0x08019eb3     0x8  Code  Gb  i2c_drv.o [1]
+HAL_I2C_GetError        0x0801b525     0x4  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_GetState        0x0801b51f     0x6  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Init            0x0801b0bd    0xbc  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_MasterRxCpltCallback
+                        0x08019eab     0x8  Code  Gb  i2c_drv.o [1]
+HAL_I2C_MasterTxCpltCallback
+                        0x08019ea3     0x8  Code  Gb  i2c_drv.o [1]
+HAL_I2C_MemRxCpltCallback
+                        0x08019e9b     0x8  Code  Gb  i2c_drv.o [1]
+HAL_I2C_MemTxCpltCallback
+                        0x08019e93     0x8  Code  Gb  i2c_drv.o [1]
+HAL_I2C_Mem_Read_IT     0x0801b297    0xe2  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write_IT    0x0801b1b5    0xe2  Code  Gb  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_MspDeInit       0x0801b1b3     0x2  Code  Wk  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x0801b1b1     0x2  Code  Wk  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_SlaveRxCpltCallback
+                        0x0801b51d     0x2  Code  Wk  stm32f7xx_hal_i2c.o [1]
+HAL_I2C_SlaveTxCpltCallback
+                        0x0801b51b     0x2  Code  Wk  stm32f7xx_hal_i2c.o [1]
+HAL_IncTick             0x080189ef     0xc  Code  Wk  stm32f7xx_hal.o [1]
+HAL_Init                0x080189b5    0x16  Code  Gb  stm32f7xx_hal.o [1]
+HAL_InitTick            0x080189cb    0x24  Code  Wk  stm32f7xx_hal.o [1]
+HAL_LTDC_ConfigColorKeying
+                        0x0801709f    0x5a  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_ConfigLayer    0x0801704f    0x50  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_EnableColorKeying
+                        0x080170f9    0x4e  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_ErrorCallback  0x0801704d     0x2  Code  Wk  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_IRQHandler     0x08016f93    0xba  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_Init           0x08016e65   0x12c  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_LineEventCallback
+                        0x08015f9f    0x18  Code  Gb  ltdc_drv.o [1]
+HAL_LTDC_MspInit        0x08015cd9   0x12e  Code  Lc  ltdc_drv.o [1]
+HAL_LTDC_MspInit        0x08016f91     0x2  Code  Wk  stm32f7xx_hal_ltdc.o [1]
+HAL_LTDC_ProgramLineEvent
+                        0x08017147    0x38  Code  Gb  stm32f7xx_hal_ltdc.o [1]
+HAL_MspInit             0x0801a001     0x2  Code  Gb  stm32f7xx_hal_msp_template.o [1]
+HAL_NVIC_EnableIRQ      0x080169d7     0xa  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x080169b5    0x22  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x080169ad     0x8  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_PCDEx_LPM_Callback  0x08034779     0x2  Code  Wk  stm32f7xx_hal_pcd_ex.o [1]
+HAL_PCD_ConnectCallback
+                        0x080346bd     0xc  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DataInStageCallback
+                        0x0803460d    0x18  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DataOutStageCallback
+                        0x080345f3    0x1a  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DisconnectCallback
+                        0x080346c9     0xc  Code  Gb  usbd_conf.o [1]
+HAL_PCD_EP_ClrStall     0x080344c3    0x5a  Code  Gb  stm32f7xx_hal_pcd.o [1]
+HAL_PCD_EP_Open         0x08034307    0x78  Code  Gb  stm32f7xx_hal_pcd.o [1]
+HAL_PCD_EP_Receive      0x0803437f    0x6a  Code  Gb  stm32f7xx_hal_pcd.o [1]
+HAL_PCD_EP_SetStall     0x08034451    0x72  Code  Gb  stm32f7xx_hal_pcd.o [1]
+HAL_PCD_EP_Transmit     0x080343e9    0x68  Code  Gb  stm32f7xx_hal_pcd.o [1]
+HAL_PCD_IRQHandler      0x08033dc9   0x516  Code  Gb  stm32f7xx_hal_pcd.o [1]
+HAL_PCD_ISOINIncompleteCallback
+                        0x080346af     0xe  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ISOOUTIncompleteCallback
+                        0x080346a1     0xe  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ResetCallback   0x08034631    0x30  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ResumeCallback  0x08034695     0xc  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SOFCallback     0x08034625     0xc  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SetAddress      0x080342df    0x28  Code  Gb  stm32f7xx_hal_pcd.o [1]
+HAL_PCD_SetupStageCallback
+                        0x080345e3    0x10  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SuspendCallback
+                        0x08034661    0x34  Code  Gb  usbd_conf.o [1]
+HAL_PWREx_EnableOverDrive
+                        0x0801819d    0x7a  Code  Gb  stm32f7xx_hal_pwr_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x08018225   0x764  Code  Gb  stm32f7xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x08017e61   0x254  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08018141    0x28  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x080180b5    0x8c  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08017955   0x50c  Code  Gb  stm32f7xx_hal_rcc.o [1]
+HAL_RTC_GetDate         0x0801a105    0x4a  Code  Gb  stm32f7xx_hal_rtc.o [1]
+HAL_RTC_GetTime         0x0801a0b1    0x54  Code  Gb  stm32f7xx_hal_rtc.o [1]
+HAL_RTC_Init            0x0801a005    0xac  Code  Gb  stm32f7xx_hal_rtc.o [1]
+HAL_RTC_MspInit         0x08018b67    0x42  Code  Gb  dims_rtc.o [1]
+HAL_SDRAM_Init          0x08016265    0x44  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_MspInit       0x080162a9     0x2  Code  Wk  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_ProgramRefreshRate
+                        0x080162e3    0x26  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SDRAM_SendCommand   0x080162ab    0x38  Code  Gb  stm32f7xx_hal_sdram.o [1]
+HAL_SPI_Init            0x08016a29    0xd4  Code  Gb  stm32f7xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x08016afd     0x2  Code  Wk  stm32f7xx_hal_spi.o [1]
+HAL_SPI_Transmit        0x08016aff   0x1b6  Code  Gb  stm32f7xx_hal_spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x080169e9    0x20  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x080169e1     0x8  Code  Gb  stm32f7xx_hal_cortex.o [1]
+HAL_TIM_Base_Init       0x0801a1e5    0x32  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x0801a217     0x2  Code  Wk  stm32f7xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                        0x0801a2a5   0x11e  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_PWM_ConfigChannel
+                        0x0801a72d   0x162  Code  Gb  stm32f7xx_hal_tim_ex.o [1]
+HAL_TIM_PWM_Init        0x0801a219    0x38  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_TIM_PWM_MspInit     0x0801a251     0x2  Code  Wk  stm32f7xx_hal_tim.o [1]
+HAL_TIM_PWM_Start       0x0801a253    0x48  Code  Gb  stm32f7xx_hal_tim.o [1]
+HAL_UART_ErrorCallback  0x0803b8bf     0x2  Code  Wk  stm32f7xx_hal_uart.o [1]
+HAL_UART_IRQHandler     0x0803b6f1    0xf0  Code  Gb  stm32f7xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                        0x0803ba55    0x14  Code  Gb  dma_usart_f7_hal.o [1]
+HAL_UART_TxCpltCallback
+                        0x0803ba69    0x16  Code  Gb  dma_usart_f7_hal.o [1]
+HEAP$$Base              0x20002168           --   Gb  - Linker created -
+HEAP$$Limit             0x20004168           --   Gb  - Linker created -
+HardFault_Handler       0x0801657d    0x26  Code  Gb  main.o [1]
+I2C3_ER_IRQHandler      0x08019e89     0xa  Code  Gb  i2c_drv.o [1]
+I2C3_EV_IRQHandler      0x08019e7f     0xa  Code  Gb  i2c_drv.o [1]
+I2C_IsAcknowledgeFailed
+                        0x0801bbb7    0x80  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_MasterReceive_ISR   0x0801b6c1   0x18a  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_MasterTransmit_ISR  0x0801b529   0x198  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_RequestMemoryRead   0x0801ba47    0x8a  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite  0x0801b9bb    0x8c  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_SlaveReceive_ISR    0x0801b90d    0xae  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_SlaveTransmit_ISR   0x0801b84b    0xc2  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_TransferConfig      0x0801bc37    0x28  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x0801bad5    0x8e  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                        0x0801bb63    0x54  Code  Lc  stm32f7xx_hal_i2c.o [1]
+I2Cx_Error              0x08019fc5    0x14  Code  Lc  i2c_drv.o [1]
+I2Cx_Init               0x08019dfd    0x5c  Code  Gb  i2c_drv.o [1]
+I2Cx_Read               0x08019f17    0x56  Code  Gb  i2c_drv.o [1]
+I2Cx_ReadBuffer         0x08019f6d    0x58  Code  Gb  i2c_drv.o [1]
+I2Cx_Write              0x08019ebb    0x5c  Code  Gb  i2c_drv.o [1]
+I2Cx_get_bus_state      0x08019e59     0x6  Code  Gb  i2c_drv.o [1]
+I2Cx_msp_init           0x08019d3d    0xc0  Code  Lc  i2c_drv.o [1]
+I2Cx_reset_bus          0x08019e5f    0x20  Code  Gb  i2c_drv.o [1]
+I2cHandle               0x20010da4    0x3c  Data  Gb  i2c_drv.o [1]
+ILI9341_SendCommand     0x08015999    0x34  Code  Lc  ili9341_drv.o [1]
+ILI9341_SendData        0x080159cd    0x34  Code  Lc  ili9341_drv.o [1]
+ILI9341_init            0x08015a01   0x2ba  Code  Gb  ili9341_drv.o [1]
+KB_Flag                 0x20011099     0x1  Data  Gb  keyboard_tmr.o [1]
+KeyOld                  0x2001109c     0x1  Data  Gb  keyboard_tmr.o [1]
+KeyPressTime            0x20011014     0x4  Data  Gb  keyboard_tmr.o [1]
+KeyScan                 0x2001109b     0x1  Data  Gb  keyboard_tmr.o [1]
+KeyState                0x2001109a     0x1  Data  Gb  keyboard_tmr.o [1]
+Keyb_HoldTime           0x20011084     0x2  Data  Gb  keyboard_tmr.o [1]
+Keyb_SpeedDelay_Timer_Init
+                        0x08019445    0x22  Code  Gb  keyboard_tmr.o [1]
+Keyboard_Scan           0x08019275   0x1d0  Code  Gb  keyboard_tmr.o [1]
+Keyboard_init           0x0801900d    0x8c  Code  Gb  keyboard_tmr.o [1]
+LEDs_Init               0x08018d71    0x80  Code  Gb  leds.o [1]
+LTDC_IRQHandler         0x08015f95     0xa  Code  Gb  ltdc_drv.o [1]
+LTDC_SetConfig          0x0801717f   0x236  Code  Lc  stm32f7xx_hal_ltdc.o [1]
+LTDC_drv_fb_update      0x08015f33    0x38  Code  Gb  ltdc_drv.o [1]
+LTDC_drv_get_free_fb_addr
+                        0x08015f6b    0x2a  Code  Gb  ltdc_drv.o [1]
+LTDC_drv_init           0x08015f19    0x1a  Code  Gb  ltdc_drv.o [1]
+LTDC_layers_init        0x08015ea1    0x78  Code  Lc  ltdc_drv.o [1]
+LTDC_ltdc_init          0x08015e07    0x9a  Code  Lc  ltdc_drv.o [1]
+LoadInt                 0x0801c29d    0x6e  Code  Lc  xprintffull.o [3]
+MS2ST                   0x0801004f     0x8  Code  Gb  gfx_mk.o [1]
+MouseInit               0x08017659    0xd0  Code  Lc  gmouse_lld_STMPE811.o [1]
+MousePoll               0x08012f67    0x32  Code  Lc  gfx_mk.o [1]
+MouseTimer              0x20010e88    0x1c  Data  Lc  gfx_mk.o [1]
+MspInit                 0x08015619   0x214  Code  Lc  dims_dsp_sdram.o [1]
+NVIC_EnableIRQ          0x08018f7d    0x16  Code  Lc  keyboard_tmr.o [1]
+NVIC_EnableIRQ          0x0801690b    0x14  Code  Lc  stm32f7xx_hal_cortex.o [1]
+NVIC_EncodePriority     0x08016941    0x3e  Code  Lc  stm32f7xx_hal_cortex.o [1]
+NVIC_GetPriorityGrouping
+                        0x08016901     0xa  Code  Lc  stm32f7xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08018f93    0x26  Code  Lc  keyboard_tmr.o [1]
+NVIC_SetPriority        0x0801691f    0x22  Code  Lc  stm32f7xx_hal_cortex.o [1]
+NVIC_SetPriorityGrouping
+                        0x080168e5    0x1c  Code  Lc  stm32f7xx_hal_cortex.o [1]
+OTG_HS_IRQHandler       0x080345d9     0xa  Code  Gb  usbd_conf.o [1]
+PCD_WriteEmptyTxFifo    0x0803451d    0xba  Code  Lc  stm32f7xx_hal_pcd.o [1]
+POLYNOMIAL              0x08043ffa     0x2  Data  Gb  sht20_module.o [1]
+PWR_Flag                0x200110a0     0x1  Data  Gb  power.o [1]
+PWR_OnUser              0x2001109f     0x1  Data  Gb  power.o [1]
+PWR_Timer               0x20000040     0x4  Data  Gb  power.o [1]
+PendSV_Handler          0x080153f5          Code  Gb  portasm.o [1]
+Power_DcDc_Off          0x08018a45     0xe  Code  Gb  power.o [1]
+Power_DcDc_On           0x08018a37     0xe  Code  Gb  power.o [1]
+Power_Disorber_Off      0x08018a61     0xe  Code  Gb  power.o [1]
+Power_Disorber_On       0x08018a53     0xe  Code  Gb  power.o [1]
+Power_Init              0x08018a05    0x22  Code  Gb  power.o [1]
+Power_Main_On           0x08018a27    0x10  Code  Gb  power.o [1]
+Power_Update            0x08018a6f    0x92  Code  Gb  power.o [1]
+RTC_Bcd2ToByte          0x0801a195    0x1a  Code  Gb  stm32f7xx_hal_rtc.o [1]
+RTC_EnterInitMode       0x0801a15d    0x38  Code  Gb  stm32f7xx_hal_rtc.o [1]
+RedrawPending           0x20011095     0x1  Data  Lc  gfx_mk.o [1]
+RefreshTimerId          0x20010ea4    0x1c  Data  Gb  gui.o [1]
+Refresh_Timer_cb        0x08019605    0x18  Code  Lc  gui.o [1]
+Region$$Table$$Base     0x080434f0           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08043510           --   Gb  - Linker created -
+RtcHandle               0x20010e4c    0x20  Data  Gb  dims_rtc.o [1]
+SETPARAMS               0x20000008    0x34  Data  Gb  main.o [1]
+SHT20_test_indicate     0x08019579    0x8c  Code  Lc  gui.o [1]
+SHT2x_CheckCrc          0x0801a98d    0x46  Code  Gb  sht20_module.o [1]
+SHT2x_MeasureHM         0x0801a9d9    0x54  Code  Gb  sht20_module.o [1]
+SPI_EndRxTxTransaction  0x08016e01    0x62  Code  Lc  stm32f7xx_hal_spi.o [1]
+SPI_WaitFifoStateUntilTimeout
+                        0x08016d4f    0xb2  Code  Lc  stm32f7xx_hal_spi.o [1]
+SPI_WaitFlagStateUntilTimeout
+                        0x08016cb5    0x9a  Code  Lc  stm32f7xx_hal_spi.o [1]
+SVC_Handler             0x08015451          Code  Gb  portasm.o [1]
+SdramHandle             0x20010e18    0x34  Data  Lc  dims_dsp_sdram.o [1]
+SendMouseEvent          0x08012af7    0xc0  Code  Lc  gfx_mk.o [1]
+StartFreeRTOS_IdleTickCode
+                        0x08016559    0x24  Code  Gb  main.o [1]
+StartupLogoDisplay      0x080111a9    0x84  Code  Lc  gfx_mk.o [1]
+SysTick_Config          0x0801697f    0x2e  Code  Lc  stm32f7xx_hal_cortex.o [1]
+SysTick_Handler         0x080435ad    0x16  Code  Gb  delay.o [1]
+SysTimer_Init           0x08018fb9    0x54  Code  Gb  keyboard_tmr.o [1]
+SystemClock_Config      0x08016309    0xee  Code  Gb  main.o [1]
+SystemCoreClock         0x20000048     0x4  Data  Gb  system_stm32f7xx.o [1]
+SystemInit              0x080421f5    0x4c  Code  Gb  system_stm32f7xx.o [1]
+TIM6_DAC_IRQHandler     0x08019099   0x1be  Code  Gb  keyboard_tmr.o [1]
+TIM_Base_SetConfig      0x0801a3c3    0xdc  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_CCxChannelCmd       0x0801a70f    0x1e  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_ETR_SetConfig       0x0801a6f7    0x18  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_ITRx_SetConfig      0x0801a6e3    0x14  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_OC1_SetConfig       0x0801a49f    0x6c  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_OC2_SetConfig       0x0801a50b    0x76  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_OC3_SetConfig       0x0801a581    0x74  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_OC4_SetConfig       0x0801a5f5    0x5e  Code  Gb  stm32f7xx_hal_tim.o [1]
+TIM_OC5_SetConfig       0x0801a88f    0x4c  Code  Lc  stm32f7xx_hal_tim_ex.o [1]
+TIM_OC6_SetConfig       0x0801a8db    0x4e  Code  Lc  stm32f7xx_hal_tim_ex.o [1]
+TIM_TI1_ConfigInputStage
+                        0x0801a691    0x28  Code  Lc  stm32f7xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                        0x0801a6b9    0x2a  Code  Lc  stm32f7xx_hal_tim.o [1]
+TickCount               0x20010fc4     0x4  Data  Lc  delay.o [1]
+Timing                  0x20010e6c    0x1c  Data  Lc  dims_dsp_sdram.o [1]
+TnD_print               0x08019505    0x74  Code  Lc  gui.o [1]
+UART4_IRQHandler        0x08043ffd     0x2  Code  Gb  bug.o [1]
+UART_EndTransmit_IT     0x0803b95f    0x2c  Code  Lc  stm32f7xx_hal_uart.o [1]
+UART_Receive_IT         0x0803b98b    0xa0  Code  Lc  stm32f7xx_hal_uart.o [1]
+UART_Transmit_IT        0x0803b8c1    0x9e  Code  Lc  stm32f7xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x0803b7e1    0xde  Code  Gb  stm32f7xx_hal_uart.o [1]
+USART1_IRQHandler       0x0803ba2d     0xa  Code  Gb  dma_usart_f7_hal.o [1]
+USBD_ClrClassConfig     0x080347a3    0x10  Code  Gb  usbd_core.o [1]
+USBD_ClrFeature         0x08034f3d    0x34  Code  Lc  usbd_ctlreq.o [1]
+USBD_CtlContinueRx      0x08034fe1    0x12  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlContinueSendData
+                        0x08034fcf    0x12  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlError           0x08034f99    0x16  Code  Gb  usbd_ctlreq.o [1]
+USBD_CtlReceiveStatus   0x08035009    0x16  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendData        0x08034faf    0x20  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendStatus      0x08034ff3    0x16  Code  Gb  usbd_ioreq.o [1]
+USBD_GetConfig          0x08034ead    0x3c  Code  Lc  usbd_ctlreq.o [1]
+USBD_GetDescriptor      0x08034c2b   0x14c  Code  Lc  usbd_ctlreq.o [1]
+USBD_GetStatus          0x08034ee9    0x32  Code  Lc  usbd_ctlreq.o [1]
+USBD_LL_ClearStallEP    0x08034707    0x10  Code  Gb  usbd_conf.o [1]
+USBD_LL_DataInStage     0x080348a3    0xdc  Code  Gb  usbd_core.o [1]
+USBD_LL_DataOutStage    0x08034819    0x8a  Code  Gb  usbd_core.o [1]
+USBD_LL_DevConnected    0x08034a11     0x4  Code  Gb  usbd_core.o [1]
+USBD_LL_DevDisconnected
+                        0x08034a15    0x18  Code  Gb  usbd_core.o [1]
+USBD_LL_IsStallEP       0x08034717    0x2e  Code  Gb  usbd_conf.o [1]
+USBD_LL_IsoINIncomplete
+                        0x08034a09     0x4  Code  Gb  usbd_core.o [1]
+USBD_LL_IsoOUTIncomplete
+                        0x08034a0d     0x4  Code  Gb  usbd_core.o [1]
+USBD_LL_OpenEP          0x080346dd    0x1a  Code  Gb  usbd_conf.o [1]
+USBD_LL_PrepareReceive  0x08034767    0x12  Code  Gb  usbd_conf.o [1]
+USBD_LL_Reset           0x0803497f    0x46  Code  Gb  usbd_core.o [1]
+USBD_LL_Resume          0x080349dd     0xc  Code  Gb  usbd_core.o [1]
+USBD_LL_SOF             0x080349e9    0x20  Code  Gb  usbd_core.o [1]
+USBD_LL_SetSpeed        0x080349c5     0x6  Code  Gb  usbd_core.o [1]
+USBD_LL_SetUSBAddress   0x08034745    0x10  Code  Gb  usbd_conf.o [1]
+USBD_LL_SetupStage      0x080347b3    0x66  Code  Gb  usbd_core.o [1]
+USBD_LL_StallEP         0x080346f7    0x10  Code  Gb  usbd_conf.o [1]
+USBD_LL_Suspend         0x080349cb    0x12  Code  Gb  usbd_core.o [1]
+USBD_LL_Transmit        0x08034755    0x12  Code  Gb  usbd_conf.o [1]
+USBD_ParseSetupRequest  0x08034f71    0x28  Code  Gb  usbd_ctlreq.o [1]
+USBD_RunTestMode        0x0803477d     0x4  Code  Gb  usbd_core.o [1]
+USBD_SetAddress         0x08034d77    0x58  Code  Lc  usbd_ctlreq.o [1]
+USBD_SetClassConfig     0x08034781    0x22  Code  Gb  usbd_core.o [1]
+USBD_SetConfig          0x08034dcf    0xda  Code  Lc  usbd_ctlreq.o [1]
+USBD_SetFeature         0x08034f1b    0x22  Code  Lc  usbd_ctlreq.o [1]
+USBD_StdDevReq          0x08034a2d    0x58  Code  Gb  usbd_ctlreq.o [1]
+USBD_StdEPReq           0x08034ad1   0x15a  Code  Gb  usbd_ctlreq.o [1]
+USBD_StdItfReq          0x08034a85    0x4c  Code  Gb  usbd_ctlreq.o [1]
+USB_ActivateEndpoint    0x0802eedb    0xc2  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ActivateSetup       0x0802f6f5    0x42  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_EP0StartXfer        0x0802f2d9   0x1ea  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_EP0_OutStart        0x0802f737    0x56  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_EPClearStall        0x0802f5c1    0x94  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_EPSetStall          0x0802f525    0x9c  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_EPStartXfer         0x0802ef9d   0x33a  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_FlushTxFifo         0x0802ee71    0x22  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_GetDevSpeed         0x0802ee93    0x48  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_GetMode             0x0802f6ed     0x8  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ReadDevAllInEpInterrupt
+                        0x0802f69d    0x12  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ReadDevAllOutEpInterrupt
+                        0x0802f68b    0x12  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ReadDevInEPInterrupt
+                        0x0802f6c7    0x26  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ReadDevOutEPInterrupt
+                        0x0802f6af    0x18  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ReadInterrupts      0x0802f67f     0xc  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_ReadPacket          0x0802f4fd    0x28  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_SetDevAddress       0x0802f655    0x2a  Code  Gb  stm32f7xx_ll_usb.o [1]
+USB_WritePacket         0x0802f4c3    0x3a  Code  Gb  stm32f7xx_ll_usb.o [1]
+UsartState              0x20011091     0x1  Data  Gb  dma_usart_f7_hal.o [1]
+WM_Add                  0x08012507    0x42  Code  Lc  gfx_mk.o [1]
+WM_DeInit               0x08012505     0x2  Code  Lc  gfx_mk.o [1]
+WM_Delete               0x08012549     0xe  Code  Lc  gfx_mk.o [1]
+WM_Init                 0x08012503     0x2  Code  Lc  gfx_mk.o [1]
+WM_MinMax               0x08012a61     0x2  Code  Lc  gfx_mk.o [1]
+WM_Move                 0x08012879   0x1e8  Code  Lc  gfx_mk.o [1]
+WM_Raise                0x08012a63    0x1c  Code  Lc  gfx_mk.o [1]
+WM_Redraw               0x0801255d   0x180  Code  Lc  gfx_mk.o [1]
+WM_Size                 0x080126ed   0x18c  Code  Lc  gfx_mk.o [1]
+WaitUntilStTim6         0x08019257    0x1e  Code  Gb  keyboard_tmr.o [1]
+_EncodingSb_Mbtowc      0x0801eadb    0x30  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x0801eac1    0x1a  Code  Gb  xencoding_sb.o [3]
+_GWINList               0x20010f8c     0x8  Data  Lc  gfx_mk.o [1]
+_GWINwm                 0x20010fec     0x4  Data  Gb  gfx_mk.o [1]
+_GenldFull              0x0801cb27   0x24c  Code  Lc  xprintffull.o [3]
+_IsdstStr               0x200000e0     0x4  Data  Gb  setlocale.o [3]
+_LdtobFull              0x0801c725   0x3fc  Code  Lc  xprintffull.o [3]
+_LitobFull              0x0801c61d   0x106  Code  Lc  xprintffull.o [3]
+_LocaleEncoding         0x0801eaad     0xe  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x20000100    0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x200000e4    0x1c  Data  Gb  setlocale.o [3]
+_Locale_aeabi_lconv     0x200000a0    0x38  Data  Gb  localeconv.o [3]
+_Locale_lconv           0x20000050    0x50  Data  Gb  localeconv.o [3]
+_Mbtowc                 0x0801cf35    0x20  Code  Gb  xmbtowc.o [3]
+_PrintfFull             0x0801bc69   0x61e  Code  Gb  xprintffull.o [3]
+_PutcharsFull           0x0801cd73    0x2e  Code  Lc  xprintffull.o [3]
+_PutstrFull             0x0801c30b   0x30c  Code  Lc  xprintffull.o [3]
+_SProut                 0x08014553     0xa  Code  Gb  xsprout.o [3]
+_TzoneStr               0x200000dc     0x4  Data  Gb  setlocale.o [3]
+_Wctomb                 0x0801e4f9    0x1a  Code  Gb  xwctomb.o [3]
+__aeabi_cdcmple         0x0801e645          Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x0801e675          Code  Gb  DblCmpGe.o [4]
+__aeabi_d2f             0x0801ae7d          Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x0801af65          Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x0801af91          Code  Gb  DblToI32.o [4]
+__aeabi_ddiv            0x0801ac25          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0801aa81          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0801e7b9          Code  Gb  DblSub.o [4]
+__aeabi_errno_addr      0x0801e9b5     0x6  Code  Gb  errno.o [3]
+__aeabi_f2d             0x0801af15          Code  Gb  FltToDbl.o [4]
+__aeabi_i2d             0x0801aa51          Code  Gb  I32ToDbl.o [4]
+__aeabi_ldiv0           0x0801eb55          Code  Gb  I64DivZer.o [5]
+__aeabi_memset          0x08014a01          Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x0801aa65          Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x0801e515          Code  Gb  I64DivMod.o [5]
+__cmain                 0x080435c9          Code  Gb  cmain.o [5]
+__data_GetMemChunk      0x0801eb29    0x2c  Code  Gb  xgetmemchunk.o [3]
+__exit                  0x0801ed65    0x14  Code  Gb  exit.o [6]
+__iar_Dnorm             0x0801e603    0x42  Code  Gb  xdnorm.o [4]
+__iar_Dscale            0x0801e6a5   0x114  Code  Gb  xdscale.o [4]
+__iar_Errno             0x200000d8     0x4  Data  Gb  errno.o [3]
+__iar_FDint             0x0801ec2f    0x4e  Code  Gb  xfdint.o [4]
+__iar_FQuad             0x0801e9c1    0xc2  Code  Gb  xfquad.o [4]
+__iar_FSin              0x0801cdbd   0x12a  Code  Gb  xfsin.o [4]
+__iar_Locale_lconv_init
+                        0x0801e939    0x3a  Code  Gb  localeconv.o [3]
+__iar_Mbcurmax          0x0801cffd     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x0801cfa5          Code  Gb  memchr.o [5]
+__iar_Memset            0x08014a01          Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08014a09          Code  Gb  ABImemset.o [5]
+__iar_Strchr            0x0801cf55          Code  Gb  strchr.o [5]
+__iar_d2uiz             0x0801af9d          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x0801eb59          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x080431f9    0x28  Code  Gb  data_init.o [5]
+__iar_dlfree            0x0801dfdf   0x510  Code  Gb  dlmalloc.o [3]
+__iar_dlib_perthread_access
+                        0x0801ec2d     0x2  Code  Gb  xtls.o [3]
+__iar_dlmalloc          0x0801dd29   0x2aa  Code  Gb  dlmalloc.o [3]
+__iar_dsub              0x0801e7cd          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x0801e7df          Code  Gb  DblSub.o [4]
+__iar_edom              0x0801cf29          Code  Gb  iarEdom.o [5]
+__iar_init_vfp          0x080434cd          Code  Gb  fpinit_M.o [4]
+__iar_packbits_init_single3
+                        0x08042c69    0x38  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x08043ca5          Code  Gb  cstartup_M.o [5]
+__iar_sqrt              0x0801afcd          Code  Gb  sqrt.o [4]
+__iar_ui2d              0x0801aa69          Code  Gb  I32ToDbl.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x08014a69          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x08014a89          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08014a89          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_vfp_fmodf         0x0801ec7d          Code  Gb  fmodf.o [4]
+__iar_vfp_sqrt          0x0801afbd          Code  Gb  sqrt.o [4]
+__iar_vfp_sqrtl         0x0801afbd          Code  Gb  sqrt.o [4]
+__iar_zero_init3        0x08042969    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x080435e3     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f746xx.o [1]
+_call_main              0x080435d5          Code  Gb  cmain.o [5]
+_exit                   0x080435ed          Code  Gb  cexit.o [5]
+_gcontainerInit         0x08012a99     0x2  Code  Gb  gfx_mk.o [1]
+_gdispDeInitDriver      0x08011307    0x24  Code  Gb  gfx_mk.o [1]
+_gdispInit              0x0801122d    0x50  Code  Gb  gfx_mk.o [1]
+_gdispInitDriver        0x0801127d    0x3e  Code  Gb  gfx_mk.o [1]
+_gdispPostInitDriver    0x080112bb    0x4c  Code  Gb  gfx_mk.o [1]
+_gdriverInit            0x0801013f     0x2  Code  Gb  gfx_mk.o [1]
+_geventInit             0x080119a1     0xc  Code  Gb  gfx_mk.o [1]
+_gfileInit              0x0801305b     0x2  Code  Gb  gfx_mk.o [1]
+_ginputInit             0x08012aef     0x8  Code  Gb  gfx_mk.o [1]
+_gm_                    0x20010728   0x1d8  Data  Lc  dlmalloc.o [3]
+_gmouseDeInitDriver     0x08013011     0x2  Code  Gb  gfx_mk.o [1]
+_gmouseInit             0x08012f99    0x1c  Code  Gb  gfx_mk.o [1]
+_gmouseInitDriver       0x08012fb5    0x4c  Code  Gb  gfx_mk.o [1]
+_gmousePostInitDriver   0x08013001    0x10  Code  Gb  gfx_mk.o [1]
+_gmouseWakeup           0x0801302b    0x18  Code  Gb  gfx_mk.o [1]
+_gmouseWakeupI          0x08013043    0x18  Code  Gb  gfx_mk.o [1]
+_gosInit                0x0801003f     0x2  Code  Gb  gfx_mk.o [1]
+_gqueueInit             0x08010241     0x2  Code  Gb  gfx_mk.o [1]
+_gtimerInit             0x08011d53    0x24  Code  Gb  gfx_mk.o [1]
+_gwidgetInit            0x08012201    0x42  Code  Gb  gfx_mk.o [1]
+_gwinFixFocus           0x08012171    0x82  Code  Gb  gfx_mk.o [1]
+_gwinFlushRedraws       0x0801228d   0x158  Code  Gb  gfx_mk.o [1]
+_gwinInit               0x08011ee1    0x10  Code  Gb  gfx_mk.o [1]
+_gwinMoveFocus          0x08012135    0x3c  Code  Gb  gfx_mk.o [1]
+_gwinRippleVisibility   0x0801240d    0xb6  Code  Gb  gfx_mk.o [1]
+_gwinUpdate             0x080123e5    0x28  Code  Gb  gfx_mk.o [1]
+_gwmInit                0x0801225d    0x2e  Code  Gb  gfx_mk.o [1]
+_main                   0x080435df          Code  Gb  cmain.o [5]
+_widgetInFocus          0x20010fe8     0x4  Data  Lc  gfx_mk.o [1]
+abort                   0x0801eb21     0x6  Code  Gb  abort.o [3]
+angleX                  0x20000150     0x2  Data  Gb  gui.o [1]
+angleY                  0x20000152     0x2  Data  Gb  gui.o [1]
+angleZ                  0x20000154     0x2  Data  Gb  gui.o [1]
+append_char             0x08010ed5    0x44  Code  Lc  gfx_mk.o [1]
+append_word             0x08010e6d    0x68  Code  Lc  gfx_mk.o [1]
+aquire_bus              0x080175b1     0x2  Code  Lc  gmouse_lld_STMPE811.o [1]
+batt_check_timer        0x2000015c     0x1  Data  Gb  adc_battery.o [1]
+batt_percent            0x20010fac     0x4  Data  Gb  adc_battery.o [1]
+batt_show               0x2000015e     0x1  Data  Gb  adc_battery.o [1]
+batt_show_timer         0x2000015d     0x1  Data  Gb  adc_battery.o [1]
+board_backlight         0x08014b41     0x2  Code  Lc  gdisp_lld_framebuffer.o [1]
+board_contrast          0x08014b43     0x2  Code  Lc  gdisp_lld_framebuffer.o [1]
+board_flush             0x08014b15    0x2c  Code  Lc  gdisp_lld_framebuffer.o [1]
+board_init              0x08014ae1    0x34  Code  Lc  gdisp_lld_framebuffer.o [1]
+board_power             0x08014b45     0x2  Code  Lc  gdisp_lld_framebuffer.o [1]
+bus_init_state          0x20011097     0x1  Data  Lc  i2c_drv.o [1]
+cFabrEPullDefVal        0x08044006     0x1  Data  Gb  flash_memory.o [1]
+cFabrGainDefVal         0x08044007     0x1  Data  Gb  flash_memory.o [1]
+col                     0x2000e568   0x800  Data  Gb  gui.o [1]
+cosi                    0x20000004     0x4  Data  Gb  gui.o [1]
+defaultBgColor          0x20011074     0x2  Data  Lc  gfx_mk.o [1]
+dhead                   0x20010fc8     0x4  Data  Lc  gfx_mk.o [1]
+div                     0x0801e9a5     0xe  Code  Gb  div.o [3]
+dma2d_common_init       0x08014cb3    0x38  Code  Lc  gdisp_lld_framebuffer.o [1]
+doExitEvent             0x08011979    0x28  Code  Lc  gfx_mk.o [1]
+draw                    0x080199c9   0x146  Code  Lc  gui.o [1]
+drawpixel               0x080110d7     0x8  Code  Lc  gfx_mk.o [1]
+drawpixel_clip          0x080110df    0x3a  Code  Lc  gfx_mk.o [1]
+dtail                   0x20010fcc     0x4  Data  Lc  gfx_mk.o [1]
+exit                    0x080435e7     0x4  Code  Gb  exit.o [3]
+fb_index                0x2001109d     0x1  Data  Gb  ltdc_drv.o [1]
+fillarea                0x08011119     0x8  Code  Lc  gfx_mk.o [1]
+fillcharglyph           0x080116dd    0x20  Code  Lc  gfx_mk.o [1]
+fillcharline            0x08011641    0x96  Code  Lc  gfx_mk.o [1]
+fillentry_bitcount      0x080104b7    0x36  Code  Lc  gfx_mk.o [1]
+find_char_range         0x08010691    0x36  Code  Lc  gfx_mk.o [1]
+find_glyph              0x08010327    0x40  Code  Lc  gfx_mk.o [1]
+fmodf                   0x0801ec81          Code  Gb  fmodf.o [4]
+gdispBlendColor         0x0801183d    0x8e  Code  Gb  gfx_mk.o [1]
+gdispGClear             0x0801136d    0x2a  Code  Gb  gfx_mk.o [1]
+gdispGDrawCircle        0x080114df   0x162  Code  Gb  gfx_mk.o [1]
+gdispGDrawStringBox     0x0801174d    0xea  Code  Gb  gfx_mk.o [1]
+gdispGFillArea          0x08011397    0xb6  Code  Gb  gfx_mk.o [1]
+gdispGFlush             0x08011347    0x26  Code  Gb  gfx_mk.o [1]
+gdispGGetHeight         0x0801133b     0x6  Code  Gb  gfx_mk.o [1]
+gdispGGetOrientation    0x08011341     0x6  Code  Gb  gfx_mk.o [1]
+gdispGGetWidth          0x08011335     0x6  Code  Gb  gfx_mk.o [1]
+gdispGSetClip           0x0801144d    0x92  Code  Gb  gfx_mk.o [1]
+gdispInitDone           0x20011094     0x1  Data  Lc  gfx_mk.o [1]
+gdispOpenFont           0x0801191d    0x4c  Code  Gb  gfx_mk.o [1]
+gdisp_lld_clear         0x08014e75    0x1a  Code  Gb  gdisp_lld_framebuffer.o [1]
+gdisp_lld_control       0x08014e8f    0xd8  Code  Gb  gdisp_lld_framebuffer.o [1]
+gdisp_lld_draw_pixel    0x08014b87    0x96  Code  Gb  gdisp_lld_framebuffer.o [1]
+gdisp_lld_fill_area     0x08014d23   0x11c  Code  Gb  gdisp_lld_framebuffer.o [1]
+gdisp_lld_flush         0x08014b7d     0xa  Code  Gb  gdisp_lld_framebuffer.o [1]
+gdisp_lld_get_pixel_color
+                        0x08014c1d    0x96  Code  Gb  gdisp_lld_framebuffer.o [1]
+gdisp_lld_init          0x08014b47    0x36  Code  Gb  gdisp_lld_framebuffer.o [1]
+gdriverGetInstance      0x080101f1    0x2c  Code  Gb  gfx_mk.o [1]
+gdriverGetNext          0x0801021d    0x24  Code  Gb  gfx_mk.o [1]
+gdriverRegister         0x08010141    0xb0  Code  Gb  gfx_mk.o [1]
+get_width               0x080106c7    0x18  Code  Lc  gfx_mk.o [1]
+get_wordlen             0x08010d95    0xd8  Code  Lc  gfx_mk.o [1]
+getpin_irq              0x08017599    0x18  Code  Lc  gmouse_lld_STMPE811.o [1]
+geventAttachSource      0x080119cb    0x94  Code  Gb  gfx_mk.o [1]
+geventGetEventBuffer    0x08011b2d    0x54  Code  Gb  gfx_mk.o [1]
+geventGetSourceListener
+                        0x08011aa7    0x86  Code  Gb  gfx_mk.o [1]
+geventListenerInit      0x080119ad    0x1e  Code  Gb  gfx_mk.o [1]
+geventMutex             0x20010fd4     0x4  Data  Lc  gfx_mk.o [1]
+geventRegisterCallback  0x08011a5f    0x48  Code  Gb  gfx_mk.o [1]
+geventSendEvent         0x08011b81    0x98  Code  Gb  gfx_mk.o [1]
+gfxInit                 0x08010001    0x3e  Code  Gb  gfx_mk.o [1]
+gfxInitDone             0x20011093     0x1  Data  Lc  gfx_mk.o [1]
+gfxMutexInit            0x08010057     0xe  Code  Gb  gfx_mk.o [1]
+gfxQueueASyncInit       0x08010243     0xa  Code  Gb  gfx_mk.o [1]
+gfxQueueASyncPut        0x0801024d     0x8  Code  Gb  gfx_mk.o [1]
+gfxQueueASyncPutI       0x08010255    0x1e  Code  Gb  gfx_mk.o [1]
+gfxQueueASyncRemove     0x08010273     0x8  Code  Gb  gfx_mk.o [1]
+gfxQueueASyncRemoveI    0x0801027b    0x3e  Code  Gb  gfx_mk.o [1]
+gfxSemInit              0x08010065    0x18  Code  Gb  gfx_mk.o [1]
+gfxSemSignal            0x080100ad    0x3a  Code  Gb  gfx_mk.o [1]
+gfxSemSignalI           0x080100e7    0x1e  Code  Gb  gfx_mk.o [1]
+gfxSemWait              0x0801007d    0x30  Code  Gb  gfx_mk.o [1]
+gfxSleepMilliseconds    0x08010041     0xe  Code  Gb  gfx_mk.o [1]
+gfxThreadCreate         0x08010105    0x3a  Code  Gb  gfx_mk.o [1]
+ginputGetKeyboard       0x08012add    0x10  Code  Gb  gfx_mk.o [1]
+ginputGetMouse          0x08013013    0x18  Code  Gb  gfx_mk.o [1]
+gl                      0x20010de0    0x38  Data  Lc  gfx_mk.o [1]
+gpio_init               0x08018c15    0x42  Code  Lc  backlight.o [1]
+gpio_init               0x08015865    0x4a  Code  Lc  ili9341_drv.o [1]
+gtimerInit              0x08011d77     0x6  Code  Gb  gfx_mk.o [1]
+gtimerIsActive          0x08011e83    0x12  Code  Gb  gfx_mk.o [1]
+gtimerJab               0x08011e95    0x38  Code  Gb  gfx_mk.o [1]
+gtimerJabI              0x08011ecd    0x14  Code  Gb  gfx_mk.o [1]
+gtimerStart             0x08011d7d   0x106  Code  Gb  gfx_mk.o [1]
+guiCreate               0x08019b0f    0x3a  Code  Lc  gui.o [1]
+guiEventLoop            0x08019b49   0x11c  Code  Gb  gui.o [1]
+gwidgetEvent            0x08011f05   0x1d8  Code  Lc  gfx_mk.o [1]
+gwinGetDefaultBgColor   0x08011ef1     0x8  Code  Gb  gfx_mk.o [1]
+gwinGetFirstChild       0x08012a9b    0x20  Code  Gb  gfx_mk.o [1]
+gwinGetNextWindow       0x080124f3    0x10  Code  Gb  gfx_mk.o [1]
+gwinGetSibling          0x08012abb    0x22  Code  Gb  gfx_mk.o [1]
+gwinSetFocus            0x080120dd    0x58  Code  Gb  gfx_mk.o [1]
+gwinSetVisible          0x080124c3    0x30  Code  Gb  gfx_mk.o [1]
+gwinsem                 0x20010f80     0xc  Data  Lc  gfx_mk.o [1]
+hThread                 0x20010fdc     0x4  Data  Lc  gfx_mk.o [1]
+hadc1                   0x20010c68    0x48  Data  Gb  adc_battery.o [1]
+hdma_memtomem_dma2_stream1
+                        0x20010c10    0x58  Data  Gb  dma_usart_f7_hal.o [1]
+hdma_usart1_rx          0x20010b60    0x58  Data  Gb  dma_usart_f7_hal.o [1]
+hdma_usart1_tx          0x20010bb8    0x58  Data  Gb  dma_usart_f7_hal.o [1]
+height                  0x20011082     0x2  Data  Gb  gui.o [1]
+hline_clip              0x08011121    0x88  Code  Lc  gfx_mk.o [1]
+hltdc                   0x20010900    0xa8  Data  Lc  ltdc_drv.o [1]
+hmdt_val                0x2001107e     0x2  Data  Gb  gui.o [1]
+hpcd_USB_OTG_HS         0x20010168   0x3c0  Data  Gb  usbd_conf.o [1]
+hspi1                   0x20010aa4    0x64  Data  Lc  ili9341_drv.o [1]
+htim2                   0x20010cf0    0x3c  Data  Gb  backlight.o [1]
+htim3                   0x20010d2c    0x3c  Data  Gb  backlight.o [1]
+htim9                   0x20010d68    0x3c  Data  Gb  buzzer_pwm.o [1]
+huart1                  0x20010a34    0x70  Data  Gb  dma_usart_f7_hal.o [1]
+i2c_bus_state           0x20011098     0x1  Data  Gb  i2c_drv.o [1]
+inHandlerMode           0x080173d3    0x12  Code  Lc  cmsis_os.o [1]
+init_board              0x08017539    0x3c  Code  Lc  gmouse_lld_STMPE811.o [1]
+init_mparams            0x0801d023    0x32  Code  Lc  dlmalloc.o [3]
+init_top                0x0801d055    0x34  Code  Lc  dlmalloc.o [3]
+initialize              0x0801961d    0x66  Code  Lc  gui.o [1]
+is_wrap_space           0x08010d6d    0x28  Code  Lc  gfx_mk.o [1]
+localeconv              0x0801e973    0x16  Code  Gb  localeconv.o [3]
+main                    0x080163f7   0x10e  Code  Gb  main.o [1]
+makeFreeRtosPriority    0x080173c1    0x12  Code  Lc  cmsis_os.o [1]
+matchfont               0x080118cb    0x52  Code  Lc  gfx_mk.o [1]
+matrix                  0x08019683   0x1c8  Code  Lc  gui.o [1]
+memchr                  0x0801cfa5          Code  Gb  memchr.o [5]
+mf_bwfont_DejaVuSans10  0x08043220    0x24  Data  Gb  gfx_mk.o [1]
+mf_bwfont_DejaVuSans10_char_ranges
+                        0x080436a0    0x18  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans10_glyph_data_0
+                        0x0803a944   0x4c8  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans10_glyph_offsets_0
+                        0x08040488    0xc0  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans10_glyph_widths_0
+                        0x08042328    0x60  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans10_listentry
+                        0x08043cb0     0x8  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans12  0x08043244    0x24  Data  Gb  gfx_mk.o [1]
+mf_bwfont_DejaVuSans12_char_ranges
+                        0x080436b8    0x18  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans12_glyph_data_0
+                        0x080399a0   0x55c  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans12_glyph_offsets_0
+                        0x08040608    0xc0  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans12_glyph_widths_0
+                        0x08042388    0x60  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSans12_listentry
+                        0x08043cc0     0x8  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSansBold12
+                        0x08043268    0x24  Data  Gb  gfx_mk.o [1]
+mf_bwfont_DejaVuSansBold12_char_ranges
+                        0x080436d0    0x18  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSansBold12_glyph_data_0
+                        0x08038dcc   0x604  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSansBold12_glyph_offsets_0
+                        0x08040d88    0xc0  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSansBold12_glyph_widths_0
+                        0x080423e8    0x60  Data  Lc  gfx_mk.o [1]
+mf_bwfont_DejaVuSansBold12_listentry
+                        0x08043d10     0x8  Data  Lc  gfx_mk.o [1]
+mf_bwfont_character_width
+                        0x08010879    0x1c  Code  Gb  gfx_mk.o [1]
+mf_bwfont_fixed_10x20   0x0804328c    0x24  Data  Gb  gfx_mk.o [1]
+mf_bwfont_fixed_10x20_char_ranges
+                        0x080436e8    0x18  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_10x20_glyph_data_0
+                        0x080324a4   0x894  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_10x20_glyph_offsets_0
+                        0x08040e48    0xc0  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_10x20_glyph_widths_0
+                        0x08042448    0x60  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_10x20_listentry
+                        0x08043d18     0x8  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_5x8     0x080432b0    0x24  Data  Gb  gfx_mk.o [1]
+mf_bwfont_fixed_5x8_char_ranges
+                        0x08043700    0x18  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_5x8_glyph_data_0
+                        0x0803cfd4   0x1dc  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_5x8_listentry
+                        0x08043d20     0x8  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_7x14    0x080432d4    0x24  Data  Gb  gfx_mk.o [1]
+mf_bwfont_fixed_7x14_char_ranges
+                        0x08043718    0x18  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_7x14_glyph_data_0
+                        0x08039efc   0x534  Data  Lc  gfx_mk.o [1]
+mf_bwfont_fixed_7x14_listentry
+                        0x08043d28     0x8  Data  Lc  gfx_mk.o [1]
+mf_bwfont_render_character
+                        0x08010847    0x32  Code  Gb  gfx_mk.o [1]
+mf_character_width      0x08010303    0x1e  Code  Gb  gfx_mk.o [1]
+mf_countline_callback   0x080116fd     0xa  Code  Lc  gfx_mk.o [1]
+mf_fillline_callback    0x08011707    0x34  Code  Lc  gfx_mk.o [1]
+mf_get_font_list        0x08010321     0x6  Code  Gb  gfx_mk.o [1]
+mf_get_string_width     0x08010ac3    0x78  Code  Gb  gfx_mk.o [1]
+mf_getchar              0x0801097d    0xa0  Code  Gb  gfx_mk.o [1]
+mf_render_aligned       0x08010cb3    0xba  Code  Gb  gfx_mk.o [1]
+mf_render_character     0x080102b9    0x4a  Code  Gb  gfx_mk.o [1]
+mf_rewind               0x08010a1d    0x24  Code  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans12_aa
+                        0x08042d08    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans12_aa_char_ranges
+                        0x08043ba8     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans12_aa_dictionary_data
+                        0x0803f448   0x14c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans12_aa_dictionary_offsets
+                        0x0803fd7c    0xf4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans12_aa_glyph_data_0
+                        0x080335b0   0x818  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans12_aa_glyph_offsets_0
+                        0x08040548    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans12_aa_listentry
+                        0x08043cb8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16
+                        0x08042d68    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_aa
+                        0x08042d38    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_aa_char_ranges
+                        0x08043bb4     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_aa_dictionary_data
+                        0x0803eabc   0x1ac  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_aa_dictionary_offsets
+                        0x0803fb6c   0x118  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_aa_glyph_data_0
+                        0x0802ba84   0xb28  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_aa_glyph_offsets_0
+                        0x080406c8    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_aa_listentry
+                        0x08043cc8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_char_ranges
+                        0x08043bc0     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_dictionary_data
+                        0x0803fc84    0xf8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_dictionary_offsets
+                        0x08041508    0xb0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_glyph_data_0
+                        0x0803ae0c   0x490  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_glyph_offsets_0
+                        0x08040788    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans16_listentry
+                        0x08043cd0     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20
+                        0x08042dc8    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_aa
+                        0x08042d98    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_aa_char_ranges
+                        0x08043bcc     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_aa_dictionary_data
+                        0x0803cdec   0x1e8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_aa_dictionary_offsets
+                        0x0803f6d4   0x138  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_aa_glyph_data_0
+                        0x08023f3c   0xf8c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_aa_glyph_offsets_0
+                        0x08040848    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_aa_listentry
+                        0x08043cd8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_char_ranges
+                        0x08043bd8     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_dictionary_data
+                        0x0803f594   0x140  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_dictionary_offsets
+                        0x08040134    0xdc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_glyph_data_0
+                        0x08037b98   0x618  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_glyph_offsets_0
+                        0x08040908    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans20_listentry
+                        0x08043ce0     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24
+                        0x08042e28    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_aa
+                        0x08042df8    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_aa_char_ranges
+                        0x08043be4     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_aa_dictionary_data
+                        0x0803c954   0x254  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_aa_dictionary_offsets
+                        0x0803f2f4   0x154  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_aa_glyph_data_0
+                        0x080207a8  0x12c0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_aa_glyph_offsets_0
+                        0x080409c8    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_aa_listentry
+                        0x08043ce8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_char_ranges
+                        0x08043bf0     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_dictionary_data
+                        0x0803ec68   0x18c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_dictionary_offsets
+                        0x0803fe70    0xf0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_glyph_data_0
+                        0x080366c8   0x754  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_glyph_offsets_0
+                        0x08040a88    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans24_listentry
+                        0x08043cf0     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32
+                        0x08042e88    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_aa
+                        0x08042e58    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_aa_char_ranges
+                        0x08043bfc     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_aa_dictionary_data
+                        0x0803c3f8   0x2e4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_aa_dictionary_offsets
+                        0x0803f17c   0x178  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_aa_glyph_data_0
+                        0x0801ed78  0x1a30  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_aa_glyph_offsets_0
+                        0x08040b48    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_aa_listentry
+                        0x08043cf8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_char_ranges
+                        0x08043c08     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_dictionary_data
+                        0x0803cba8   0x244  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_dictionary_offsets
+                        0x0803f934   0x11c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_glyph_data_0
+                        0x0802db0c   0x9c8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_glyph_offsets_0
+                        0x08040c08    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSans32_listentry
+                        0x08043d00     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSansBold12_aa
+                        0x08042eb8    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_DejaVuSansBold12_aa_char_ranges
+                        0x08043c14     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSansBold12_aa_dictionary_data
+                        0x0803f80c   0x128  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSansBold12_aa_dictionary_offsets
+                        0x0804004c    0xe8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSansBold12_aa_glyph_data_0
+                        0x080312c8   0x8f4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSansBold12_aa_glyph_offsets_0
+                        0x08040cc8    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_DejaVuSansBold12_aa_listentry
+                        0x08043d08     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_LargeNumbers
+                        0x08042ee8    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_LargeNumbers_char_ranges
+                        0x08043c20     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_LargeNumbers_dictionary_data
+                        0x08041f18    0x90  Data  Lc  gfx_mk.o [1]
+mf_rlefont_LargeNumbers_dictionary_offsets
+                        0x08042118    0x70  Data  Lc  gfx_mk.o [1]
+mf_rlefont_LargeNumbers_glyph_data_0
+                        0x0803c6dc   0x278  Data  Lc  gfx_mk.o [1]
+mf_rlefont_LargeNumbers_glyph_offsets_0
+                        0x08042ca0    0x34  Data  Lc  gfx_mk.o [1]
+mf_rlefont_LargeNumbers_listentry
+                        0x08043d30     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12
+                        0x08042f78    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_char_ranges
+                        0x08041ad4    0x9c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_dictionary_data
+                        0x0803b29c   0x454  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_dictionary_offsets
+                        0x0803d1b0   0x1d4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_0
+                        0x080381b0   0x610  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_1
+                        0x080300ac   0x910  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_10
+                        0x080430f8    0x2c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_11
+                        0x08043730    0x18  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_12
+                        0x080387c0   0x60c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_2
+                        0x08043514    0x20  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_3
+                        0x08043c38     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_4
+                        0x08043ab8    0x10  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_5
+                        0x080433ac    0x24  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_6
+                        0x08042a20    0x3c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_7
+                        0x08043e2c     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_8
+                        0x08043c44     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_data_9
+                        0x080431a8    0x28  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_0
+                        0x08040fc8    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_1
+                        0x0803de7c   0x1c0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_10
+                        0x0801a002     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_11
+                        0x0801a1ae     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_12
+                        0x080415b8    0xa4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_2
+                        0x08014ade     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_3
+                        0x08043e24     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_4
+                        0x08043e28     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_5
+                        0x08043d68     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_6
+                        0x0804263c    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_7
+                        0x08014ffe     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_8
+                        0x08016e62     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_glyph_offsets_9
+                        0x08017952     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT12_listentry
+                        0x08043d70     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14
+                        0x08042fa8    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_char_ranges
+                        0x08041b70    0x9c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_dictionary_data
+                        0x0803a430   0x514  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_dictionary_offsets
+                        0x0803d384   0x1d4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_0
+                        0x080357fc   0x768  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_1
+                        0x0802d0a8   0xa64  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_10
+                        0x08042a5c    0x3c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_11
+                        0x080438b4    0x14  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_12
+                        0x08035f64   0x764  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_2
+                        0x08043534    0x20  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_3
+                        0x080438a0    0x14  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_4
+                        0x08043ac8    0x10  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_5
+                        0x080433d0    0x24  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_6
+                        0x08042928    0x40  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_7
+                        0x08043e38     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_8
+                        0x08043c50     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_data_9
+                        0x08042cd4    0x34  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_0
+                        0x08041088    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_1
+                        0x0803e03c   0x1c0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_10
+                        0x0801af62     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_11
+                        0x0801cdba     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_12
+                        0x0804165c    0xa4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_2
+                        0x0801aa4e     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_3
+                        0x08043e30     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_4
+                        0x08043e34     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_5
+                        0x08043d78     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_6
+                        0x08042680    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_7
+                        0x0801ac22     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_8
+                        0x0801ae7a     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_glyph_offsets_9
+                        0x0801af12     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT14_listentry
+                        0x08043d80     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16
+                        0x08042fd8    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_char_ranges
+                        0x08041c0c    0x9c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_dictionary_data
+                        0x080393d0   0x5d0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_dictionary_offsets
+                        0x0803d558   0x1d4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_0
+                        0x08032d38   0x878  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_1
+                        0x0802a34c   0xbe0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_10
+                        0x08042ad4    0x3c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_11
+                        0x08043748    0x18  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_12
+                        0x08031bbc   0x8e8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_2
+                        0x08043124    0x2c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_3
+                        0x08043574    0x1c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_4
+                        0x080438c8    0x14  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_5
+                        0x080433f4    0x24  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_6
+                        0x08042a98    0x3c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_7
+                        0x08043d90     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_8
+                        0x08043c5c     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_data_9
+                        0x08042bc0    0x38  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_0
+                        0x08041148    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_1
+                        0x0803e1fc   0x1c0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_10
+                        0x0801e672     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_11
+                        0x0801e6a2     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_12
+                        0x08041700    0xa4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_2
+                        0x0801cf6a     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_3
+                        0x08043e3c     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_4
+                        0x08043e40     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_5
+                        0x08043d88     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_6
+                        0x080426c4    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_7
+                        0x0801cfa2     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_8
+                        0x0801d006     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_glyph_offsets_9
+                        0x0801e512     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT16_listentry
+                        0x08043d98     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18
+                        0x08043008    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_char_ranges
+                        0x08041ca8    0x9c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_dictionary_data
+                        0x08037558   0x640  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_dictionary_offsets
+                        0x0803d72c   0x1d4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_0
+                        0x080309bc   0x90c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_1
+                        0x08028904   0xd54  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_10
+                        0x0804274c    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_11
+                        0x080438f0    0x14  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_12
+                        0x0802e4d4   0x99c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_2
+                        0x08043150    0x2c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_3
+                        0x08043418    0x24  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_4
+                        0x080438dc    0x14  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_5
+                        0x0804343c    0x24  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_6
+                        0x080425ac    0x48  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_7
+                        0x08043c68     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_8
+                        0x08043ad8    0x10  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_data_9
+                        0x08042bf8    0x38  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_0
+                        0x08041208    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_1
+                        0x0803e3bc   0x1c0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_10
+                        0x080345d6     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_11
+                        0x0803477a     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_12
+                        0x080417a4    0xa4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_2
+                        0x0801e9b2     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_3
+                        0x08043e44     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_4
+                        0x08043e48     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_5
+                        0x08043da0     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_6
+                        0x08042708    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_7
+                        0x0801eb26     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_8
+                        0x0801eb56     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_glyph_offsets_9
+                        0x0801ed62     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT18_listentry
+                        0x08043da8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20
+                        0x08043038    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_char_ranges
+                        0x08041d44    0x9c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_dictionary_data
+                        0x08036e1c   0x73c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_dictionary_offsets
+                        0x0803d900   0x1d4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_0
+                        0x0802c5ac   0xafc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_1
+                        0x08025e30   0xee8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_10
+                        0x08042504    0x54  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_11
+                        0x08043918    0x14  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_12
+                        0x0802af2c   0xb58  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_2
+                        0x08042c30    0x38  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_3
+                        0x08043c74     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_4
+                        0x08043904    0x14  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_5
+                        0x08043460    0x24  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_6
+                        0x08042b10    0x3c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_7
+                        0x08043c80     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_8
+                        0x08043ae8    0x10  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_data_9
+                        0x080425f4    0x48  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_0
+                        0x080412c8    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_1
+                        0x0803e57c   0x1c0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_10
+                        0x080435f6     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_11
+                        0x08043fe0     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_12
+                        0x08041848    0xa4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_2
+                        0x0803501e     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_3
+                        0x08043e4c     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_4
+                        0x08043e50     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_5
+                        0x08043db0     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_6
+                        0x08042790    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_7
+                        0x0803ba2a     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_8
+                        0x08043510     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_glyph_offsets_9
+                        0x080435ea     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT20_listentry
+                        0x08043db8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24
+                        0x08043068    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_char_ranges
+                        0x08041de0    0x9c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_dictionary_data
+                        0x08035020   0x7dc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_dictionary_offsets
+                        0x0803dad4   0x1d4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_0
+                        0x08029658   0xcf4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_1
+                        0x08022cfc  0x1240  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_10
+                        0x08042260    0x68  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_11
+                        0x0804392c    0x14  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_12
+                        0x08027b24   0xde0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_2
+                        0x080427d4    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_3
+                        0x0804317c    0x2c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_4
+                        0x08043590    0x1c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_5
+                        0x080431d0    0x28  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_6
+                        0x08042818    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_7
+                        0x08043c8c     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_8
+                        0x08043760    0x18  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_data_9
+                        0x080424a8    0x5c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_0
+                        0x08041388    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_1
+                        0x0803e73c   0x1c0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_10
+                        0x08043fea     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_11
+                        0x08043fec     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_12
+                        0x080418ec    0xa4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_2
+                        0x08043fe2     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_3
+                        0x08043e54     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_4
+                        0x08043e58     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_5
+                        0x08043dc0     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_6
+                        0x0804285c    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_7
+                        0x08043fe4     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_8
+                        0x08043fe6     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_glyph_offsets_9
+                        0x08043fe8     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT24_listentry
+                        0x08043dc8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26
+                        0x080430c8    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_char_ranges
+                        0x08041e7c    0x9c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_dictionary_data
+                        0x0802f794   0x918  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_dictionary_offsets
+                        0x0803dca8   0x1d4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_0
+                        0x08026d18   0xe0c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_1
+                        0x08021a68  0x1294  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_10
+                        0x080420a4    0x74  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_11
+                        0x08043790    0x18  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_12
+                        0x08024ec8   0xf68  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_2
+                        0x080428a0    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_3
+                        0x08043098    0x30  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_4
+                        0x08043778    0x18  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_5
+                        0x08043484    0x24  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_6
+                        0x08042558    0x54  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_7
+                        0x08043dd8     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_8
+                        0x08043c98     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_data_9
+                        0x08042188    0x6c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_0
+                        0x08041448    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_1
+                        0x0803e8fc   0x1c0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_10
+                        0x08043ff6     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_11
+                        0x08043ff8     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_12
+                        0x08041990    0xa4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_2
+                        0x08043fee     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_3
+                        0x08043e5c     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_4
+                        0x08043e60     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_5
+                        0x08043dd0     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_6
+                        0x080428e4    0x44  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_7
+                        0x08043ff0     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_8
+                        0x08043ff2     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_glyph_offsets_9
+                        0x08043ff4     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_MagistralTT26_listentry
+                        0x08043de0     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1          0x08042f18    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_UI1_Double   0x08043340    0x24  Data  Gb  gfx_mk.o [1]
+mf_rlefont_UI1_Double_listentry
+                        0x08043d38     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_Narrow   0x0804331c    0x24  Data  Gb  gfx_mk.o [1]
+mf_rlefont_UI1_Narrow_listentry
+                        0x08043d40     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_char_ranges
+                        0x080432f8    0x24  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_dictionary_data
+                        0x0803fa50   0x11c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_dictionary_offsets
+                        0x08040210    0xd8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_glyph_data_0
+                        0x08043e20     0x4  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_glyph_data_1
+                        0x0803bdd0   0x314  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_glyph_data_2
+                        0x0803c0e4   0x314  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_glyph_offsets_0
+                        0x08014a66     0x2  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_glyph_offsets_1
+                        0x080403c0    0xc8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_glyph_offsets_2
+                        0x080402e8    0xd8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI1_listentry
+                        0x08043d48     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI2          0x08042f48    0x30  Data  Gb  gfx_mk.o [1]
+mf_rlefont_UI2_Double   0x08043388    0x24  Data  Gb  gfx_mk.o [1]
+mf_rlefont_UI2_Double_listentry
+                        0x08043d50     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI2_Narrow   0x08043364    0x24  Data  Gb  gfx_mk.o [1]
+mf_rlefont_UI2_Narrow_listentry
+                        0x08043d58     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI2_char_ranges
+                        0x08043c2c     0xc  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI2_dictionary_data
+                        0x08041a34    0xa0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI2_dictionary_offsets
+                        0x08042028    0x7c  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI2_glyph_data_0
+                        0x0803ba98   0x338  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI2_glyph_offsets_0
+                        0x08040f08    0xc0  Data  Lc  gfx_mk.o [1]
+mf_rlefont_UI2_listentry
+                        0x08043d60     0x8  Data  Lc  gfx_mk.o [1]
+mf_rlefont_character_width
+                        0x0801067d    0x14  Code  Gb  gfx_mk.o [1]
+mf_rlefont_render_character
+                        0x08010617    0x66  Code  Gb  gfx_mk.o [1]
+mf_round_to_prev_tab    0x08010a83    0x40  Code  Lc  gfx_mk.o [1]
+mf_round_to_tab         0x08010a41    0x42  Code  Lc  gfx_mk.o [1]
+mf_scaled_character_width
+                        0x080108fd    0x1a  Code  Gb  gfx_mk.o [1]
+mf_scaled_render_character
+                        0x08010917    0x4c  Code  Gb  gfx_mk.o [1]
+mf_wordwrap             0x08010fd1   0x106  Code  Gb  gfx_mk.o [1]
+mparams                 0x20010ec0    0x18  Data  Lc  dlmalloc.o [3]
+mutex                   0x20010fd8     0x4  Data  Lc  gfx_mk.o [1]
+osKernelStart           0x080173e5     0xa  Code  Gb  cmsis_os.o [1]
+osSemaphoreCreate       0x08017429    0x30  Code  Gb  cmsis_os.o [1]
+osSemaphoreRelease      0x080174d1    0x52  Code  Gb  cmsis_os.o [1]
+osSemaphoreWait         0x08017459    0x78  Code  Gb  cmsis_os.o [1]
+osSystickHandler        0x08017523    0x10  Code  Gb  cmsis_os.o [1]
+osThreadCreate          0x080173ef    0x3a  Code  Gb  cmsis_os.o [1]
+os_semaphore_def_sem_ltdc_fb_chd_id
+                        0x08043e6c     0x4  Data  Gb  ltdc_drv.o [1]
+pFabrExplDefSettings    0x0803ff60    0xec  Data  Gb  flash_memory.o [1]
+pFabrExplName           0x08043554    0x20  Data  Gb  flash_memory.o [1]
+pTimerHead              0x20010fe0     0x4  Data  Lc  gfx_mk.o [1]
+pcInterruptPriorityRegisters
+                        0x08043e70     0x4  Data  Lc  port.o [1]
+prepend_alloc           0x0801d089   0x36c  Code  Lc  dlmalloc.o [3]
+prvAddCurrentTaskToDelayedList
+                        0x08013905    0x4e  Code  Lc  tasks.o [1]
+prvAllocateTCBAndStack  0x0801395d    0x4a  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                        0x08015369    0x68  Code  Lc  timers.o [1]
+prvCheckTasksWaitingTermination
+                        0x080138a1    0x64  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x080143f7    0x2a  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x08014375    0x82  Code  Lc  queue.o [1]
+prvDeleteTCB            0x080139a7    0x12  Code  Lc  tasks.o [1]
+prvGetNextExpireTime    0x0801517b    0x28  Code  Lc  timers.o [1]
+prvHeapInit             0x08014921    0x64  Code  Lc  heap_4.o [1]
+prvIdleTask             0x080137d1    0x24  Code  Lc  tasks.o [1]
+prvInitialiseTCBVariables
+                        0x080137f5    0x56  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x0801384b    0x56  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x08014985    0x5c  Code  Lc  heap_4.o [1]
+prvInsertTimerInActiveList
+                        0x080151cb    0x3e  Code  Lc  timers.o [1]
+prvIsQueueEmpty         0x0801448b    0x1c  Code  Lc  queue.o [1]
+prvIsQueueFull          0x080144a7    0x1e  Code  Lc  queue.o [1]
+prvProcessExpiredTimer  0x080150ad    0x5e  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                        0x08015209    0xde  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                        0x08015121    0x5a  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime
+                        0x080139b9    0x28  Code  Lc  tasks.o [1]
+prvSampleTimeNow        0x080151a3    0x28  Code  Lc  timers.o [1]
+prvSwitchTimerLists     0x080152e7    0x82  Code  Lc  timers.o [1]
+prvTaskExitError        0x08014581    0x32  Code  Lc  port.o [1]
+prvTimerTask            0x0801510d    0x14  Code  Lc  timers.o [1]
+prvUnlockQueue          0x08014421    0x6a  Code  Lc  queue.o [1]
+psFabrTrackDefVal       0x08043b38    0x10  Data  Gb  flash_memory.o [1]
+pvPortMalloc            0x08014791   0x114  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x08013b71    0x1e  Code  Gb  tasks.o [1]
+pwrDisplay              0x200110a1     0x1  Data  Gb  power.o [1]
+pwrDisplayCnt           0x20000044     0x4  Data  Gb  power.o [1]
+pxCurrentTCB            0x2001102c     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x20011060     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x20011030     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x20011004     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x20011034     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x20011064     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x0801455d    0x24  Code  Gb  port.o [1]
+pxReadyTasksLists       0x200109a8    0x8c  Data  Lc  tasks.o [1]
+read_byte               0x080175db    0x32  Code  Lc  gmouse_lld_STMPE811.o [1]
+read_word               0x0801760d    0x3c  Code  Lc  gmouse_lld_STMPE811.o [1]
+read_xyz                0x08017729    0xc4  Code  Lc  gmouse_lld_STMPE811.o [1]
+release_bus             0x080175b3     0x2  Code  Lc  gmouse_lld_STMPE811.o [1]
+render_char             0x080106df   0x168  Code  Lc  gfx_mk.o [1]
+render_left             0x08010ba7    0x70  Code  Lc  gfx_mk.o [1]
+render_right            0x08010c17    0x9c  Code  Lc  gfx_mk.o [1]
+rotate                  0x0801984b   0x17a  Code  Lc  gui.o [1]
+sFabrRpIdOffsetDefVal   0x08044002     0x2  Data  Gb  flash_memory.o [1]
+sFabrRpIdWndDefVal      0x08044000     0x2  Data  Gb  flash_memory.o [1]
+scaled_pixel_callback   0x08010895    0x68  Code  Lc  gfx_mk.o [1]
+segment_holding         0x0801d009    0x1a  Code  Lc  dlmalloc.o [3]
+sem_ltdc_fb_chd_id      0x2001101c     0x4  Data  Gb  ltdc_drv.o [1]
+sht20_reset             0x0801aa4d     0x2  Code  Gb  sht20_module.o [1]
+sht20readRh             0x0801aa3d    0x10  Code  Gb  sht20_module.o [1]
+sht20readTemp           0x0801aa2d    0x10  Code  Gb  sht20_module.o [1]
+sine                    0x20004168  0x5000  Data  Gb  gui.o [1]
+sinf                    0x0801af0d     0x6  Code  Gb  sinf.o [4]
+skip_pixels             0x080103d5    0x28  Code  Lc  gfx_mk.o [1]
+speedX                  0x20000156     0x2  Data  Gb  gui.o [1]
+speedY                  0x20000158     0x2  Data  Gb  gui.o [1]
+speedZ                  0x2000015a     0x2  Data  Gb  gui.o [1]
+spi_init                0x080158af    0xea  Code  Lc  ili9341_drv.o [1]
+sprintf                 0x0801a1b1    0x34  Code  Gb  sprintf.o [3]
+sq16                    0x08010f19     0x6  Code  Lc  gfx_mk.o [1]
+sqrt                    0x0801afcd          Code  Gb  sqrt.o [4]
+sqrtl                   0x0801afcd          Code  Gb  sqrt.o [4]
+strchr                  0x0801cf55          Code  Gb  strchr.o [5]
+strip_spaces            0x08010b3b    0x6c  Code  Lc  gfx_mk.o [1]
+strlen                  0x0801cf6d          Code  Gb  strlen.o [5]
+sysTickTim6             0x20011018     0x4  Data  Lc  keyboard_tmr.o [1]
+sys_alloc               0x0801d3f5   0x386  Code  Lc  dlmalloc.o [3]
+tasks                   0x20011028     0x4  Data  Gb  task_manager.o [1]
+temp_val                0x2001107c     0x2  Data  Gb  gui.o [1]
+ticks2ms                0x20010fe4     0x4  Data  Lc  gfx_mk.o [1]
+tmalloc_large           0x0801d789   0x390  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x0801db19   0x210  Code  Lc  dlmalloc.o [3]
+tune_lines              0x08010f1f    0xb2  Code  Lc  gfx_mk.o [1]
+ucHeap                  0x20009168  0x3c00  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x2001109e     0x1  Data  Lc  port.o [1]
+ulBatrerySample         0x20010fb0     0x4  Data  Gb  adc_battery.o [1]
+ulMaxPRIGROUPValue      0x20011020     0x4  Data  Lc  port.o [1]
+ulRefSample             0x20010fb4     0x4  Data  Gb  adc_battery.o [1]
+usFabrFlagsBitsDefVal   0x08043ffe     0x2  Data  Gb  flash_memory.o [1]
+usFabrMenuAlphaDefVal   0x08044004     0x2  Data  Gb  flash_memory.o [1]
+usFabrMenuFlagsDefVal   0x08043fdc     0x4  Data  Gb  flash_memory.o [1]
+usart_RX_timeout        0x20011092     0x1  Data  Gb  dma_usart_f7_hal.o [1]
+uwTick                  0x20011024     0x4  Data  Lc  stm32f7xx_hal.o [1]
+uxCriticalNesting       0x2000003c     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x2001103c     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x08014fd9    0x26  Code  Gb  list.o [1]
+uxPendedTicks           0x2001104c     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x2001105c     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x20011058     0x4  Data  Lc  tasks.o [1]
+uxTasksDeleted          0x20011038     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20011044     0x4  Data  Lc  tasks.o [1]
+vListInitialise         0x08014f67    0x1e  Code  Gb  list.o [1]
+vListInitialiseItem     0x08014f85     0x6  Code  Gb  list.o [1]
+vListInsert             0x08014fa3    0x36  Code  Gb  list.o [1]
+vListInsertEnd          0x08014f8b    0x18  Code  Gb  list.o [1]
+vPortEnableVFP          0x08015485          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x0801464b    0x42  Code  Gb  port.o [1]
+vPortExitCritical       0x0801468d    0x36  Code  Gb  port.o [1]
+vPortFree               0x080148a5    0x7c  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                        0x080146f3    0x1a  Code  Wk  port.o [1]
+vPortStartFirstTask     0x0801546d          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x0801470d    0x52  Code  Gb  port.o [1]
+vQueueAddToRegistry     0x080144c5    0x24  Code  Gb  queue.o [1]
+vQueueDelete            0x0801434b    0x2a  Code  Gb  queue.o [1]
+vQueueUnregisterQueue   0x080144e9    0x20  Code  Gb  queue.o [1]
+vQueueWaitForMessageRestricted
+                        0x08014515    0x3e  Code  Gb  queue.o [1]
+vTaskDelay              0x080131f3    0x84  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x080137c3     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x08013593    0x70  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x0801360d    0x60  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x08013a01    0xaa  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x08013709    0x2a  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x08013277    0x72  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x080132e9    0x10  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x08013523    0x70  Code  Gb  tasks.o [1]
+waTimerThread           0x20000000     0x4  Data  Lc  gfx_mk.o [1]
+waitsem                 0x20010f74     0xc  Data  Lc  gfx_mk.o [1]
+width                   0x20011080     0x2  Data  Gb  gui.o [1]
+write_bin_codeword      0x080104ed    0x60  Code  Lc  gfx_mk.o [1]
+write_glyph_codeword    0x080105eb    0x2c  Code  Lc  gfx_mk.o [1]
+write_pixels            0x08010367    0x6e  Code  Lc  gfx_mk.o [1]
+write_ref_codeword      0x0801054d    0x54  Code  Lc  gfx_mk.o [1]
+write_ref_dictentry     0x080105a1    0x4a  Code  Lc  gfx_mk.o [1]
+write_reg               0x080175b5    0x26  Code  Lc  gmouse_lld_STMPE811.o [1]
+write_rle_dictentry     0x080103fd    0xba  Code  Lc  gfx_mk.o [1]
+xActiveTimerList1       0x20010f3c    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x20010f50    0x14  Data  Lc  timers.o [1]
+xBlockAllocatedBit      0x20011010     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x20010ed8    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x20010eec    0x14  Data  Lc  tasks.o [1]
+xFabrSystemSettings     0x08043e10     0x8  Data  Gb  flash_memory.o [1]
+xFreeBytesRemaining     0x20011008     0x4  Data  Lc  heap_4.o [1]
+xHeapStructSize         0x08043e68     0x4  Data  Lc  heap_4.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x2001100c     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x2000004c     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x20011054     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x20010f00    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x080145b3    0x98  Code  Gb  port.o [1]
+xPortSysTickHandler     0x080146c3    0x30  Code  Gb  port.o [1]
+xQueueCreateCountingSemaphore
+                        0x08013d57    0x5c  Code  Gb  queue.o [1]
+xQueueCreateMutex       0x08013ce3    0x74  Code  Gb  queue.o [1]
+xQueueGenericCreate     0x08013c6f    0x74  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x080140f3   0x1aa  Code  Gb  queue.o [1]
+xQueueGenericReset      0x08013bdd    0x92  Code  Gb  queue.o [1]
+xQueueGenericSend       0x08013db3   0x19e  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x08013f51    0xe0  Code  Gb  queue.o [1]
+xQueueGiveFromISR       0x08014031    0xc2  Code  Gb  queue.o [1]
+xQueueReceiveFromISR    0x0801429d    0xae  Code  Gb  queue.o [1]
+xQueueRegistry          0x20010cb0    0x40  Data  Gb  queue.o [1]
+xSchedulerRunning       0x20011048     0x4  Data  Lc  tasks.o [1]
+xStart                  0x20010fa4     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x20010f28    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x08013739    0x8a  Code  Gb  tasks.o [1]
+xTaskGenericCreate      0x08013071   0x182  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x080139e1    0x20  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x080133f9     0x8  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x08013401   0x122  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x08013ab1    0xbc  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x0801367d    0x86  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x080132f9   0x100  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20010f14    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20011040     0x4  Data  Lc  tasks.o [1]
+xTimerCreateTimerTask   0x08015001    0x54  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x08015055    0x58  Code  Gb  timers.o [1]
+xTimerQueue             0x20011068     0x4  Data  Lc  timers.o [1]
+xYieldPending           0x20011050     0x4  Data  Lc  tasks.o [1]
+xyz                     0x2000cd68  0x1800  Data  Gb  gui.o [1]
+
+
+[1] = D:\Work\devel\New_Interface_Bulatov_5.1.x_uGFX\Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+   70 834 bytes of readonly  code memory
+  142 698 bytes of readonly  data memory
+   69 788 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

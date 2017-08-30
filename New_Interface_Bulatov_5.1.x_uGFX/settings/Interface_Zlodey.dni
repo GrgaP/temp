@@ -1,0 +1,176 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=32940558
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=1
+CpuClock=180000000
+ClockAutoDetect=0
+ClockWanted=100000
+JtagSpeed=100000
+Prescaler=1800
+TimeStampPrescIndex=3
+TimeStampPrescData=3
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[SfrWindow]
+Show=1 0
+Sort=7 0
+[StLinkDriver]
+stlinkserialNo=EB3D9999
+stlinkfoundProbes=
+CStepIntDis=_ 0
+[CodeCoverage]
+Enabled=_ 1
+[struct_types]
+Fmt0=SETPARAMS_t-Gain	3	0
+Fmt1=SETPARAMS_t-ePull	3	0
+Fmt2=SETPARAMS_t-iFlagBits	3	0
+[array_types]
+Fmt0=enum PeakType [16]	1	0
+Fmt1=s16[8]	3	0
+Fmt2=u16[5000]	4	0
+Fmt3=uint16_t[5000]	3	0
+[watch_formats]
+Fmt0={W}0:(u32)&text1	4	0
+Fmt1={W}0:(u32)&text2	4	0
+Fmt2={W}0:*Int_C	3	0
+Fmt3={W}0:checksum	4	0
+Fmt4={W}0:usart_massiv	4	4
+Fmt5={W}1:col1	4	0
+Fmt6={W}1:col2	4	0
+Fmt7={W}1:col3	4	0
+Fmt8={W}42:(float)a[0]	4	0
+Fmt9={W}42:(float)a[5]	4	0
+Fmt10={W}42:b[0]	4	0
+Fmt11={W}42:b[1]	4	0
+Fmt12={W}42:b[2]	4	0
+Fmt13={W}42:b[3]	4	0
+Fmt14={W}42:b[4]	4	0
+Fmt15={W}42:b[5]	4	0
+Fmt16={W}42:c[0]	4	0
+Fmt17={W}42:c[1]	4	0
+Fmt18={W}42:c[2]	4	0
+Fmt19={W}42:sRgb565	4	0
+Fmt20={W}42:sRgb565_2	4	0
+Fmt21={W}42:tasks	1	0
+Fmt22={W}42:usart_RX_timeout	3	0
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Disassemble mode]
+mode=2
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\board\board_STM32LTDC.h}.36.1" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\ugfx\drivers\gdisp\framebuffer_dma2d\gdisp_lld_framebuffer.c}.280.3" 0 0 1 "" 0 "" 0
+Count=2
+[Aliases]
+A0=_ "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include\core_cm4.h" ""
+A1=_ "D:\Users\User\Desktop\Шутов Максим\STM32 изучение\F429I\проекты\4) подключение дисплея SPI\main.c" ""
+A2=_ "D:\Users\User\Desktop\Шутов Максим\STM32 изучение\F429I\проекты\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c" ""
+A3=_ "D:\Users\User\Desktop\Шутов Максим\Нос (плата интерфейса + клавиатура)\Проект IAR для STM32F429ZI (интерфейс) 19-03-2014 только RX\main.c" ""
+A4=_ "D:\Users\User\Desktop\Шутов Максим\Нос (плата интерфейса + клавиатура)\Проект IAR для STM32F429ZI (интерфейс) 19-03-2014 только RX\menu2.h" ""
+A5=_ "D:\Users\User\Desktop\Шутов Максим\Нос (плата интерфейса + клавиатура)\Проект IAR для STM32F429ZI (интерфейс) 20-03-2014 только RX - копия\Include\stm32f4xx_rcc.c" ""
+A6=_ "D:\Users\a.bulatov\Desktop\2015-04-10 vertical calibration pos + interval\Include\stm32f4xx_iwdg.c" ""
+A7=_ "D:\Users\m.shutov\Desktop\Шутов Максим\__Интерфейс, малый дисплей  [v1.2] + клавиатура [v1.0]\ПО\Проект IAR для STM32F429ZI (интерфейс) 2014-10-31 dma\main.c" ""
+A8=_ "D:\Users\m.shutov\Desktop\Шутов Максим\__Интерфейс\ПО на малый дисплей\2015-05-28 SpectraBug + GanGraph\Include\startup_stm32f429_439xx.s" ""
+A9=_ "D:\Users\m.shutov\Desktop\Шутов Максим\__Интерфейс\ПО на малый дисплей\2015-05-28 SpectraBug + GanGraph\Include\stm32f4xx_dma.c" ""
+A10=_ "D:\Users\m.shutov\Desktop\Шутов Максим\__Интерфейс\ПО на малый дисплей\2015-05-28 SpectraBug + GanGraph\Include\stm32f4xx_pwr.c" ""
+A11=_ "D:\Users\m.shutov\Desktop\Шутов Максим\__Интерфейс\ПО на малый дисплей\2015-05-28 SpectraBug + GanGraph\Include\stm32f4xx_rcc.c" ""
+A12=_ "D:\Users\m.shutov\Desktop\Шутов Максим\__Интерфейс\ПО на малый дисплей\2015-05-28 SpectraBug + GanGraph\Include\system_stm32f4xx.c" ""
+A13=_ "D:\Users\m.shutov\Desktop\Шутов Максим\__Интерфейс\ПО на малый дисплей\2015-09-01 new_interface_pcb\leds.c" ""
+A14=_ "D:\Users\m.shutov\Desktop\Шутов Максим\__Интерфейс\ПО на малый дисплей\2015-09-01 new_interface_pcb\main.c" ""
+A15=_ "D:\Users\m.shutov\Desktop\Шутов Максим\Нос (интерфейс 1 + клавиатура)\Проект IAR для STM32F429ZI (интерфейс) 2014-09-24 меню\Include\stm32f4xx_iwdg.c" ""
+A16=_ "D:\Work\DIMS_V5.0\firmware\New_Interface_Bulatov\Include\startup_stm32f429_439xx.s" ""
+A17=_ "D:\Work\DIMS_V5.0\firmware\New_Interface_Bulatov\bug.c" ""
+A18=_ "D:\Work\DIMS_V5.0\firmware\New_Interface_Bulatov\main.c" "D:\Work\devel\New_Interface_Bulatov_5.1.x\main.c"
+A19=_ "D:\Work\devel\New_Interface_Bulatov_5.1.x\main.c" "D:\Work\devel\New_Interface_Bulatov_5.1.x_ref\main.c"
+Count=20
+SuppressDialog=0

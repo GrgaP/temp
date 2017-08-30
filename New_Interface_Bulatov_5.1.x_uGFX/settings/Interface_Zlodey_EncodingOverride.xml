@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>D:\Work\DIMS_V5.0\firmware\New_Interface_Bulatov\graph.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Work\DIMS_V5.0\firmware\New_Interface_Bulatov\main.c</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>D:\Work\DIMS_V5.0\firmware\New_Interface_Bulatov\main.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Work\DIMS_V5.0\firmware\New_Interface_Bulatov\menu.c</path>
+    <encoding>UTF-8</encoding>
+  </override>
+</userOverrides>
+
+

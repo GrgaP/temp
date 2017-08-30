@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>test_prj_210416/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>417</ColumnWidth1><ColumnWidth2>274</ColumnWidth2><ColumnWidth3>90</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>252</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <TerminalIO/><Debug-Log><ColumnWidth0>34</ColumnWidth0><ColumnWidth1>854</ColumnWidth1></Debug-Log><Find-in-Files><ColumnWidth0>582</ColumnWidth0><ColumnWidth1>46</ColumnWidth1><ColumnWidth2>414</ColumnWidth2><ColumnWidth3>184</ColumnWidth3></Find-in-Files><Register><PreferedWindows><Position>4</Position><ScreenPosX>1919</ScreenPosX><ScreenPosY>361</ScreenPosY><Windows><Window><Factory>WATCH_1</Factory></Window></Windows></PreferedWindows></Register><WATCH_1><PreferedWindows><Position>4</Position><ScreenPosX>1919</ScreenPosX><ScreenPosY>361</ScreenPosY><Windows><Window><Factory>Register</Factory></Window></Windows></PreferedWindows></WATCH_1><Disassembly><PreferedWindows><Position>4</Position><ScreenPosX>1059</ScreenPosX><ScreenPosY>639</ScreenPosY><Windows/></PreferedWindows></Disassembly></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-23912-12830</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>test_prj_210416</ExpandedNode><ExpandedNode>test_prj_210416/Application</ExpandedNode><ExpandedNode>test_prj_210416/Application/svd_gui</ExpandedNode><ExpandedNode>test_prj_210416/Drivers</ExpandedNode><ExpandedNode>test_prj_210416/Middlewares</ExpandedNode><ExpandedNode>test_prj_210416/Middlewares/GUI</ExpandedNode><ExpandedNode>test_prj_210416/Middlewares/GUI/cfg</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1893-12834</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-19527-18012</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-23544-28785</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\data_processing.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>146</YPos2><SelStart2>7014</SelStart2><SelEnd2>7014</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\inc\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>246</SelStart2><SelEnd2>246</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\svd_gui_scale_mode.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\FreeRTOS\tasks.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>3019</YPos2><SelStart2>102777</SelStart2><SelEnd2>102777</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Drivers\HAL\Src\stm32f7xx_hal_ltdc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>356</YPos2><SelStart2>14055</SelStart2><SelEnd2>14055</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Drivers\HAL\Inc\stm32f7xx_hal_ltdc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>473</YPos2><SelStart2>21636</SelStart2><SelEnd2>21636</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\inc\stm32f7xx_it.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>27</YPos2><SelStart2>2991</SelStart2><SelEnd2>2991</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\FreeRTOS\timers.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>363</YPos2><SelStart2>20297</SelStart2><SelEnd2>20297</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Config\GUI_LCD\LCDConf.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1</YPos2><SelStart2>710</SelStart2><SelEnd2>710</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\STemWIN\inc\WM.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>542</YPos2><SelStart2>25348</SelStart2><SelEnd2>25348</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\inc\stopwatch.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>619</SelStart2><SelEnd2>619</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\stm32f7xx_hal_msp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>9</YPos2><SelStart2>2192</SelStart2><SelEnd2>2192</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\stm32f7xx_it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>160</YPos2><SelStart2>5579</SelStart2><SelEnd2>5579</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\test_prj_210416\Drivers\HAL\Src\stm32f7xx_hal_tim.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>2887</YPos2><SelStart2>96706</SelStart2><SelEnd2>96706</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\svd_gui.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>90</YPos2><SelStart2>3740</SelStart2><SelEnd2>3740</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\STemWIN\inc\TEXT.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>96</YPos2><SelStart2>2864</SelStart2><SelEnd2>2864</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\STemWIN\inc\GUI.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1800</YPos2><SelStart2>79052</SelStart2><SelEnd2>79066</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Config\GUI_LCD\GUIConf.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>57</YPos2><SelStart2>1518</SelStart2><SelEnd2>1518</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Config\GUI_LCD\GUIConf.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>35</YPos2><SelStart2>3480</SelStart2><SelEnd2>3480</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Config\GUI_LCD\LCDConf.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>73</YPos2><SelStart2>3082</SelStart2><SelEnd2>3082</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\inc\svd_gui.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>24</YPos2><SelStart2>1554</SelStart2><SelEnd2>1554</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Drivers\HW\DISCO\stm32746g_discovery_ts.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>134</YPos2><SelStart2>6295</SelStart2><SelEnd2>6295</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\stopwatch.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>15</YPos2><SelStart2>381</SelStart2><SelEnd2>381</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Drivers\HW\Common\ts.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Drivers\HW\DISCO\stm32746g_discovery_ts.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>57</YPos2><SelStart2>3412</SelStart2><SelEnd2>3412</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>96</YPos2><SelStart2>3302</SelStart2><SelEnd2>3302</SelEnd2></Tab><ActiveTab>25</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\test_prj_210416\Middlewares\FreeRTOS\tasks.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>3013</YPos2><SelStart2>102777</SelStart2><SelEnd2>102777</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\STemWIN\inc\GUIDRV_Lin.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>215</YPos2><SelStart2>10272</SelStart2><SelEnd2>10272</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-03CC2D58><key>iaridepm.enu1</key></Toolbar-03CC2D58></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>896</Bottom><Right>326</Right><x>-2</x><y>-2</y><xscreen>-2061420</xscreen><yscreen>373</yscreen><sizeHorzCX>-1073656249</sizeHorzCX><sizeHorzCY>374122</sizeHorzCY><sizeVertCX>170833</sizeVertCX><sizeVertCY>900702</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>56</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>58</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>58175</sizeHorzCY><sizeVertCX>-1073656249</sizeVertCX><sizeVertCY>374122</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
