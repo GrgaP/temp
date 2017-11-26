@@ -20,6 +20,18 @@ D:\Work\devel_stm32\dims_kl3333\dims_kl3333\EWARM/../Drivers/CMSIS/Device/ST/STM
 -I
 D:\Work\devel_stm32\dims_kl3333\dims_kl3333\EWARM\..\firmware_src
 -I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\EWARM\..\firmware_src\board\GFX_subsys_drv
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\EWARM\..\firmware_src\uGFX_lld
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\EWARM\..\Middlewares\Third_Party\ugfx
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\EWARM\..\Middlewares\Third_Party\ugfx_fonts
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\EWARM\..\Middlewares\Third_Party\ugfx\drivers\gdisp\framebuffer_dma2d
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\EWARM\..\firmware_src\gui
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc
@@ -43,6 +55,18 @@ D:\Work\devel_stm32\dims_kl3333\dims_kl3333\Drivers\CMSIS\Include
 D:\Work\devel_stm32\dims_kl3333\dims_kl3333\Drivers\CMSIS\Device\ST\STM32F7xx\Include
 -I
 D:\Work\devel_stm32\dims_kl3333\dims_kl3333\firmware_src
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\firmware_src\board\GFX_subsys_drv
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\firmware_src\uGFX_lld
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\Middlewares\Third_Party\ugfx
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\Middlewares\Third_Party\ugfx_fonts
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\Middlewares\Third_Party\ugfx\drivers\gdisp\framebuffer_dma2d
+-I
+D:\Work\devel_stm32\dims_kl3333\dims_kl3333\firmware_src\gui
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include
 -DUSE_HAL_DRIVER=1

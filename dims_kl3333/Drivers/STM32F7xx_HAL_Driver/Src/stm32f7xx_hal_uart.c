@@ -2,8 +2,8 @@
   ******************************************************************************
   * @file    stm32f7xx_hal_uart.c
   * @author  MCD Application Team
-  * @version V1.0.4
-  * @date    09-December-2015
+  * @version V1.0.3
+  * @date    13-November-2015
   * @brief   UART HAL module driver.
   *          This file provides firmware functions to manage the following 
   *          functionalities of the Universal Asynchronous Receiver Transmitter (UART) peripheral:
@@ -168,6 +168,7 @@
     
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
+#define HAL_UART_TXDMA_TIMEOUTVALUE                      22000
 #define UART_CR1_FIELDS  ((uint32_t)(USART_CR1_M | USART_CR1_PCE | USART_CR1_PS | \
                                      USART_CR1_TE | USART_CR1_RE | USART_CR1_OVER8))
 /* Private macro -------------------------------------------------------------*/
@@ -1193,8 +1194,21 @@ void HAL_UART_IRQHandler(UART_HandleTypeDef *huart)
     UART_EndTransmit_IT(huart);
   }
   
-}
+ uint8_t tmp_flag = __HAL_UART_GET_FLAG(huart, UART_FLAG_IDLE);
+ uint8_t tmp_it_source = __HAL_UART_GET_IT_SOURCE(huart, UART_IT_IDLE);
+  /* UART in mode Transmitter end --------------------------------------------*/
+  if((tmp_flag != RESET) && (tmp_it_source != RESET))
+  {
+    __HAL_UART_CLEAR_IDLEFLAG(huart);
+    HAL_UART_RxIdleCallback(huart);
+  }
 
+   if(huart->ErrorCode != HAL_UART_ERROR_NONE)
+   {
+     /* Set the UART state ready to be able to start again the process */
+     void HAL_UART_IRQHandler(UART_HandleTypeDef *huart);
+   }    
+}
 
 /**
   * @brief  This function handles UART Communication Timeout.
@@ -1360,6 +1374,22 @@ static void UART_DMAError(DMA_HandleTypeDef *hdma)
   huart->State= HAL_UART_STATE_READY;
   huart->ErrorCode |= HAL_UART_ERROR_DMA;
   HAL_UART_ErrorCallback(huart);
+}
+
+ /**
+  * @brief  Rx Idle callbacks.
+  * @param  huart: Pointer to a UART_HandleTypeDef structure that contains
+  *                the configuration information for the specified UART module.
+  * @retval None
+  */
+__weak void HAL_UART_RxIdleCallback(UART_HandleTypeDef *huart)
+{
+  /* Prevent unused argument(s) compilation warning */
+  UNUSED(huart);
+  
+ /* NOTE: This function should not be modified, when the callback is needed,
+          the HAL_UART_RxIdleCallback can be implemented in the user file
+  */
 }
 
 /**

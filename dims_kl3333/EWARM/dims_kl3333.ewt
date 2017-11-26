@@ -1062,6 +1062,12 @@
         <name>ext_data_ch</name>
       </group>
       <group>
+        <name>gui</name>
+        <file>
+          <name>$PROJ_DIR$\..\firmware_src\gui\gui.c</name>
+        </file>
+      </group>
+      <group>
         <name>kl3333_drv</name>
       </group>
       <group>
@@ -1074,7 +1080,16 @@
         <name>$PROJ_DIR$\..\Src\freertos.c</name>
       </file>
       <file>
+        <name>$PROJ_DIR$\..\firmware_src\gpio_lld.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\firmware_src\led_lld.c</name>
+      </file>
+      <file>
         <name>$PROJ_DIR$\..\Src\main.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\firmware_src\pw_lld.c</name>
       </file>
       <file>
         <name>$PROJ_DIR$\..\Src\stm32f7xx_hal_msp.c</name>
@@ -1093,6 +1108,18 @@
       <name>CMSIS</name>
       <file>
         <name>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F7xx\Source\Templates\system_stm32f7xx.c</name>
+      </file>
+    </group>
+    <group>
+      <name>DIMS_board</name>
+      <file>
+        <name>$PROJ_DIR$\..\firmware_src\board\GFX_subsys_drv\dims_dsp_sdram.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\firmware_src\board\GFX_subsys_drv\ili9341_drv.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\firmware_src\board\GFX_subsys_drv\ltdc_drv.c</name>
       </file>
     </group>
     <group>
@@ -1158,7 +1185,7 @@
         <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c</name>
+        <name>$PROJ_DIR$\..\Src\stm32f7xx_hal_uart_idle_cb.c</name>
       </file>
       <file>
         <name>$PROJ_DIR$\..\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_fmc.c</name>
@@ -1198,6 +1225,15 @@
       </file>
       <file>
         <name>$PROJ_DIR$\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</name>
+      </file>
+    </group>
+    <group>
+      <name>uGFX</name>
+      <file>
+        <name>$PROJ_DIR$\..\Middlewares\Third_Party\ugfx\drivers\gdisp\framebuffer_dma2d\gdisp_lld_framebuffer.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\Middlewares\Third_Party\ugfx\src\gfx_mk.c</name>
       </file>
     </group>
   </group>

@@ -1,13 +1,18 @@
 #include "stm32f7xx_hal.h"
 #include "cmsis_os.h"
 
+#include "led_lld.h"
+
 UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart3;
 DMA_HandleTypeDef hdma_usart1_tx;
 DMA_HandleTypeDef hdma_usart1_rx;
 DMA_HandleTypeDef hdma_usart3_rx;
 DMA_HandleTypeDef hdma_usart3_tx;
+
 osThreadId uart_run_Handle;
+osThreadId uart_testTx_Handle;
+
 osMessageQId myQueue01Handle;
 osTimerId uart1_timerHandle;
 osTimerId uart3_timerHandle;
@@ -42,10 +47,12 @@ typedef enum uart_drv_states{
 uint8_t uart1_rx_buffer[64];
 uint8_t uart1_tx_buffer[64];
 
-uint8_t uart3_rx_buffer[512];
+uint8_t uart3_rx_buffer[64];
 uint8_t uart3_tx_buffer[64];
 
 void Uart_run_Task(void const * argument);
+void Uart_TestTx_Task(void const * argument);
+
 static void uart1_timeout(void const * argument);
 static void uart3_timeout(void const * argument);
 
@@ -240,7 +247,7 @@ static void MX_USART3_UART_Init(void)
 {
 
   huart3.Instance = USART3;
-  huart3.Init.BaudRate = 9600;
+  huart3.Init.BaudRate = 28800;
   huart3.Init.WordLength = UART_WORDLENGTH_8B;
   huart3.Init.StopBits = UART_STOPBITS_1;
   huart3.Init.Parity = UART_PARITY_NONE;
@@ -311,13 +318,18 @@ void uart_lld_init()
   
 	/* Create the thread(s) */
   /* definition and creation of defaultTask */
-  osThreadDef(uart_run_Task, Uart_run_Task, osPriorityNormal, 0, 128);
+  osThreadDef(uart_run_Task, Uart_run_Task, osPriorityHigh, 0, 128);
   uart_run_Handle = osThreadCreate(osThread(uart_run_Task), NULL);  
+  
+	/* Create the thread(s) */
+  /* definition and creation of defaultTask */
+  osThreadDef(uart_testTx_Task, Uart_TestTx_Task, osPriorityLow, 0, 128);
+  uart_testTx_Handle = osThreadCreate(osThread(uart_testTx_Task), NULL);    
   
     /* Create the queue(s) */
   /* definition and creation of myQueue01 */
-  osMessageQDef(myQueue01, 16, uint8_t);
-  myQueue01Handle = osMessageCreate(osMessageQ(myQueue01), NULL);
+//  osMessageQDef(myQueue01, 16, uint8_t);
+//  myQueue01Handle = osMessageCreate(osMessageQ(myQueue01), NULL);
 	
 }
 
@@ -329,9 +341,7 @@ void uart_lld_init()
 			
 void HAL_UART_RxIdleCallback(UART_HandleTypeDef *huart)
 {
-  USART_TypeDef* uart_n = huart->Instance;
-  
-	switch((uint32_t)uart_n)
+	switch((uint32_t) huart->Instance)
 	{
 		case (uint32_t) USART1:
 		{
@@ -345,14 +355,14 @@ void HAL_UART_RxIdleCallback(UART_HandleTypeDef *huart)
 		break;
 	};
 }
-/*
+
 void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
 {
-	switch(huart->Instance)
+	switch( (uint32_t) huart->Instance)
 	{
-		case UART1:
+		case (uint32_t) USART1:
 			osSemaphoreRelease(uart1_tx_cplt); break;
-		case UART3:
+		case (uint32_t) USART3:
 			osSemaphoreRelease(uart3_tx_cplt); break;
 		default:
 		break;
@@ -361,11 +371,11 @@ void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
 
 void HAL_UART_TxHalfCpltCallback(UART_HandleTypeDef *huart)
 {
-	switch(huart->Instance)
+	switch( (uint32_t) huart->Instance)
 	{
-		case UART1:
+		case (uint32_t) USART1:
 			osSemaphoreRelease(uart1_txh_cplt); break;
-		case UART3:
+		case (uint32_t) USART3:
 			osSemaphoreRelease(uart3_txh_cplt); break;
 		default:
 		break;
@@ -374,11 +384,11 @@ void HAL_UART_TxHalfCpltCallback(UART_HandleTypeDef *huart)
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-	switch(huart->Instance)
+	switch( (uint32_t) huart->Instance)
 	{
-		case UART1:
+		case (uint32_t) USART1:
 			osSemaphoreRelease(uart1_rx_cplt); break;
-		case UART3:
+		case (uint32_t) USART3:
 			osSemaphoreRelease(uart3_rx_cplt); break;
 		default:
 		break;
@@ -387,12 +397,16 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
 void HAL_UART_RxHalfCpltCallback(UART_HandleTypeDef *huart)
 {
-	switch(huart->Instance)
+	switch( (uint32_t) huart->Instance)
 	{
-		case UART1:
+		case (uint32_t) USART1:
 			osSemaphoreRelease(uart1_rxh_cplt); break;
-		case UART3:
-			osSemaphoreRelease(uart3_rxh_cplt); break;
+		case (uint32_t) USART3:
+                  {
+                    huart->hdmarx->Instance->NDTR = 512;
+                    __HAL_UART_ENABLE_IT(huart, UART_IT_IDLE);
+                    osSemaphoreRelease(uart3_rxh_cplt);
+                  }; break;
 		default:
 		break;
 	};
@@ -400,21 +414,19 @@ void HAL_UART_RxHalfCpltCallback(UART_HandleTypeDef *huart)
 
 void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
 {
-	switch(huart->Instance)
+	switch( (uint32_t) huart->Instance)
 	{
-		case UART1:
-		{}; break;
-		case UART3:
-		{
-			
-		}; break
+		case (uint32_t) USART1:
+                  break;
+		case (uint32_t) USART3:
+		  break;
 		default:
 		break;
 	};
 	
 }
 
-*/
+
 static uint16_t valid_check(uint8_t* buffer, uint16_t size)
 {
 	uint16_t i, retval = 0x01;
@@ -539,18 +551,51 @@ void Uart_run_Task(void const * argument)
   //uart3_rx_waiting_start();
   
   
-
+  HAL_UART_Receive_DMA(&huart3, uart3_rx_buffer, 128);
   
   /* Infinite loop */
   for(;;)
   {
-	uart1_sm(); 
-	uart3_sm();
+    
+    
+    led_lld_toggle(LED_HL(2));
+	//uart1_sm(); 
+	//uart3_sm();
 	
+    
     osDelay(10);
   }
   /* USER CODE END 5 */ 
 }
+
+/* StartDefaultTask function */
+void Uart_TestTx_Task(void const * argument)
+{
+  static uint8_t data = 0x55;
+  
+  /* USER CODE BEGIN 5 */
+  
+  //uart3_tx_();
+  //uart1_rx_waiting_start();
+  //uart3_rx_waiting_start();
+  
+  
+ // HAL_UART_Receive_DMA(&huart3, uart3_rx_buffer, 128);
+  
+  /* Infinite loop */
+  for(;;)
+  {    
+    led_lld_toggle(LED_HL(1));
+	//uart1_sm(); 
+	//uart3_sm();
+	
+    HAL_UART_Transmit(&huart3, &data, sizeof(data), 0);
+    //HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout)
+    osDelay(200);
+  }
+  /* USER CODE END 5 */ 
+}
+
 
 /* uart1_timeout function */
 static void uart1_timeout(void const * argument)
