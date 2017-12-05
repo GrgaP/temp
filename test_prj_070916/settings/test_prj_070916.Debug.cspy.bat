@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\Work\devel\test_prj_070916\settings\test_prj_070916.Debug.general.xcl" --backend -f "D:\Work\devel\test_prj_070916\settings\test_prj_070916.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\pitic\Documents\GitHub\temp\test_prj_070916\settings\test_prj_070916.Debug.general.xcl" --backend -f "C:\Users\pitic\Documents\GitHub\temp\test_prj_070916\settings\test_prj_070916.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "D:\Work\devel\test_prj_070916\settings\test_prj_070916.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Work\devel\test_prj_070916\settings\test_prj_070916.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\pitic\Documents\GitHub\temp\test_prj_070916\settings\test_prj_070916.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\pitic\Documents\GitHub\temp\test_prj_070916\settings\test_prj_070916.Debug.driver.xcl" 
 
 @echo off 
 :end
